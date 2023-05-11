@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Aurora_User{
+    comb:主键，32位COMB类型
+    user_name:昵称
+    himg:头像
+    bimg:个人主页背景图
+    user_id:供前端使用的用户id
+    user_login_name:用户账户名
+    user_login_pwd:用户登录密码
+    user_login_salt:盐
+    user_date_create:账户创立时间
+    user_signature:用户个人签名
+    user_setting_allow_follow_explore:用户是否允许其他用户查看详细信息
+    digit_following:用户关注人数
+    digit_followed:用户被关注人数
+    digit_article:用户发帖数
+    digit_group:用户关注分组的数量
+    digit_last_up:最后一次使用顶功能的时间
+    m2m_user_group:多对多外键，指向用户关注的分组
+    m2m_follow:多对多外键，指向用户关注的人
+}
+
+
+@enduml

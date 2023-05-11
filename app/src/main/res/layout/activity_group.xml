@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:style="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/top_background"
+        style="@style/aurora_daynight_theme"
+        android:elevation="6dip"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/option"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dip"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:drawableRight="@drawable/options" />
+
+            <RadioButton
+                android:id="@+id/notice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dip"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:drawableRight="@drawable/notice" />
+
+            <Button
+                android:id="@+id/new_notice"
+                android:layout_alignRight="@+id/notice"
+                android:layout_alignBottom="@+id/notice"
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/round_notice_bubble"
+                android:text="99+"
+                android:textSize="10sp"
+                android:visibility="invisible"
+                android:textColor="@color/font"
+                android:layout_width="20dip"
+                android:layout_height="20dip"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_marginTop="60dip"
+        app:layout_scrollFlags="scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/background"
+            app:layout_scrollFlags="scroll"
+            android:padding="20dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dip">
+
+                <ImageView
+                    android:id="@+id/group_pic"
+                    android:layout_width="100dip"
+                    android:layout_height="100dip" />
+
+                <LinearLayout
+                    android:layout_marginLeft="110dip"
+                    android:layout_alignBottom="@id/group_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/group_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/font"
+                        android:text="小黄鸭组"/>
+
+                    <androidx.legacy.widget.Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dip"/>
+
+                    <TextView
+                        android:id="@+id/group_member"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/font"
+                        android:textSize="@dimen/normal_font"
+                        android:text="1000000只小黄鸭"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/follow_btn"
+                    android:layout_width="80dip"
+                    android:layout_height="30dip"
+                    android:layout_alignBottom="@id/group_pic"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="30dip"
+                    android:background="@drawable/selector_rect_btn"
+                    android:enabled="true"
+                    android:textColor="@color/aurora_font" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/group_introduction"
+                android:background="@color/aurora_trans_grey"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:padding="5dip"
+                android:textSize="13sp"
+                android:maxEms="77"
+                android:ellipsize="end"
+                android:textColor="@color/font"
+                android:text="小黄鸭组的简介"/>
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:background="@color/aurora_label"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <RadioGroup
+                android:id="@+id/bar"
+                style="@style/aurora_daynight_theme"
+                android:paddingRight="30dip"
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/all"
+                    android:layout_marginLeft="30dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:textSize="@dimen/normal_font"
+                    android:background="@color/transparent"
+                    android:drawableBottom="@drawable/selector_clickline"
+                    android:gravity="center"
+                    android:text="@string/all" />
+
+            </RadioGroup>
+
+    </HorizontalScrollView>
+
+    </com.google.android.material.appbar.AppBarLayout><!--悬浮的选择栏-->
+
+    <LinearLayout
+        app:layout_behavior = "@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/><!--置顶帖-->
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/set_article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="10dip"
+            android:backgroundTint="@color/aurora_theme"
+            android:src="@drawable/add"
+            app:borderWidth="0dp"
+            app:elevation="10dp"
+            app:fabSize="auto" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginRight="10dip"
+            android:backgroundTint="@color/aurora_theme"
+            android:src="@drawable/top"
+            app:borderWidth="0dp"
+            app:fabSize="auto"
+            app:layout_constraintBottom_toTopOf="@id/set_article"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

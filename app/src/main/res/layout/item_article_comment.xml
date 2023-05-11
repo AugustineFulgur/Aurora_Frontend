@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aurora="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/aurora_daynight_theme"
+    android:id="@+id/comment"><!--回复的id-->
+
+    <LinearLayout
+        android:id="@+id/user_link"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/nick_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dip"
+            android:src="@mipmap/history"
+            app:riv_oval="true" /> <!--riv_oval是否圆形-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/username"
+                style="@style/aurora_daynight_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小黄鸭"
+                android:textSize="@dimen/normal_font"
+                android:textStyle="bold" /><!--用户名-->
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/aurora_daynight_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="2022/2/8 12:26"
+                android:textSize="12sp" /><!--时间-->
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dip"
+                android:layout_marginRight="15dip"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:drawableStart="@drawable/options" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/reply_block"
+        android:layout_width="match_parent"
+        android:textIsSelectable="true"
+        android:layout_marginLeft="70dip"
+        android:layout_marginRight="30dip"
+        android:padding="10dip"
+        android:background="@drawable/round_rect"
+        android:layout_height="wrap_content"
+        android:text="是一条上下文通知"/>
+
+    <TextView
+        android:id="@+id/comment_content"
+        android:textIsSelectable="true"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="这是一条回复"
+        android:textSize="@dimen/normal_font" /> <!--回复区域-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            style="@style/aurora_radiobutton_remove"
+            android:id="@+id/like_btn"
+            android:layout_width="100dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="10dp"
+            android:button="@null"
+            android:textColor="@color/aurora_grey"
+            android:drawableLeft="@drawable/selector_like_small"
+            android:text="11454"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dip"
+        android:layout_marginLeft="70dp"
+        android:background="@color/aurora_grey" />
+
+</LinearLayout>

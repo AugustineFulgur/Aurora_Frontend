@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/aurora_daynight_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/get_id"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/setting_get_id"
+        android:textSize="17sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/aurora_background"/>
+
+    <TextView
+        android:id="@+id/change_nickname"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/setting_change_nickname"
+        android:textSize="17sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/aurora_background"/>
+
+    <TextView
+        android:id="@+id/change_himg"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/setting_change_himg"
+        android:textSize="17sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/aurora_background"/>
+
+    <TextView
+        android:id="@+id/change_bimg"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/setting_change_bimg"
+        android:textSize="17sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/aurora_background"/>
+
+    <TextView
+        android:id="@+id/change_signature"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/setting_change_signature"
+        android:textSize="17sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/aurora_background"/>
+
+    <TextView
+        android:id="@+id/change_password"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/setting_change_password"
+        android:textSize="17sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/aurora_background"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/night_theme"
+        android:orientation="horizontal"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:paddingLeft="100dip"
+        android:paddingRight="50dip"
+        android:textSize="17sp"
+        android:text="@string/setting_night_theme"
+        android:layout_height="50dip" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/aurora_background"/>
+
+    <TextView
+        android:id="@+id/invite"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/setting_invite"
+        android:textSize="17sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/aurora_background"/>
+
+    <TextView
+        android:id="@+id/about"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="@string/setting_about"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/exit"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="5dip"
+        android:text="@string/setting_exit"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/aurora_font"/>
+
+</LinearLayout>

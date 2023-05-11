@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/aurora_daynight_theme">
+
+    <ImageButton
+        android:id="@+id/exit"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="20dip"
+        android:background="@drawable/cancel"/>
+
+    <Button
+        android:id="@+id/set_trend"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/round_shape_theme"
+        android:text="@string/create"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/trend_content"
+        style="@style/aurora_daynight_theme"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/outside_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:scrollbars="vertical"
+        android:gravity="top"
+        android:layout_marginTop="60dip"
+        android:padding="20dip"
+        android:textSize="17sp"
+        android:textColor="@color/aurora_font"
+        android:textColorHint="@color/aurora_font"
+        android:hint="@string/content_transmit_hint" />
+
+    <LinearLayout
+        style="@style/aurora_daynight_theme"
+        android:id="@+id/outside_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/transparent"
+            android:button="@drawable/image_big"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip" />
+
+        <RadioGroup
+            android:id="@+id/article_type"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/article_public"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dip"
+                android:textColor="@color/aurora_font"
+                android:textSize="12sp"
+                android:text="@string/article_public"
+                android:background="@color/transparent"
+                android:button="@drawable/selector_aurora_radio_btn"/>
+
+            <RadioButton
+                android:id="@+id/article_protected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dip"
+                android:textColor="@color/aurora_font"
+                android:textSize="12sp"
+                android:text="@string/article_protected"
+                android:background="@color/transparent"
+                android:button="@drawable/selector_aurora_radio_btn"/>
+
+            <RadioButton
+                android:id="@+id/article_private"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dip"
+                android:textColor="@color/aurora_font"
+                android:textSize="12sp"
+                android:text="@string/article_private"
+                android:background="@color/transparent"
+                android:button="@drawable/selector_aurora_radio_btn"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_margin="10dip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/message_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/chat_bubble_theme"
+        android:maxWidth="300dip"
+        android:paddingLeft="15dip"
+        android:paddingTop="10dip"
+        android:paddingRight="15dip"
+        android:paddingBottom="10dip"
+        app:layout_constraintEnd_toStartOf="@id/nick"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/message"
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dip"
+            android:maxWidth="200dip"
+            android:textColor="@color/aurora_font"
+            android:textSize="@dimen/normal_font" />
+
+    </LinearLayout>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/nick"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:layout_marginEnd="16dp"
+        android:src="@mipmap/history"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_oval="true" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:text="2022-3-8 18:36"
+        android:textSize="10sp"
+        android:textColor="@color/aurora_font"
+        app:layout_constraintRight_toRightOf="@id/message_layout"
+        app:layout_constraintTop_toBottomOf="@id/message_layout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

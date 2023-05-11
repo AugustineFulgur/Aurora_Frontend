@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--aurora theme color--> <!--决定把主题色定成黄色，之后再改吧-->
+    <color name="aurora_theme">#FFB73A</color> <!--主题色-->
+    <color name="aurora_theme_light">#FFD024</color>
+    <color name="aurora_theme_dark">#7D850A</color> <!--手机状态栏色-->
+    <color name="aurora_accent">#F6FF7A</color> <!--交互色-->
+    <color name="aurora_secondary">#FFCA2B</color> <!--提示色-->
+    <color name="transparent">#00ffffff</color>
+    <color name="aurora_trans_grey">#40D5D5D5</color>
+    <color name="aurora_watermark">#33A5A5A5</color>
+    <color name="aurora_trans_back">#55ffffff</color>
+    <!--以下是主题色-->
+    <color name="aurora_tint_label">#D5D5D5</color>
+    <color name="aurora_label">#FFFFFF</color>
+    <color name="aurora_background">#CFCFCF</color>
+    <color name="aurora_grey">#C1C1C1</color>
+    <color name="aurora_font">#000000</color>
+    <color name="font">#ffffff</color> <!--不变的颜色用这个-->
+
+    <color name="notice_bubble">#FF3232</color>
+
+    <color name="start_gradual">#D5D5D5</color>
+    <color name="end_gradual">#003C3C3C</color>
+
+    <color name="white">#ffffff</color>
+
+</resources>

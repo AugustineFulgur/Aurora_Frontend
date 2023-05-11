@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: C./Users/Haker/Downloads/Bugly_aar_4.0.4.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/82245d810f7df2c276e8f267ad07738e/transformed/jetified-Bugly_aar_4.0.4/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/82245d810f7df2c276e8f267ad07738e/transformed/jetified-Bugly_aar_4.0.4/jars/libs/bugly_crash_release.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/82245d810f7df2c276e8f267ad07738e/transformed/jetified-Bugly_aar_4.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/82245d810f7df2c276e8f267ad07738e/transformed/jetified-Bugly_aar_4.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

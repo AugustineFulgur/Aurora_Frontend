@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--碎片文件，动态的碎片-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dip"
+    app:cardElevation="5dip"
+    app:cardCornerRadius="10dp"
+    android:layout_marginBottom="10dip"
+    style="@style/aurora_daynight_theme">
+
+    <LinearLayout
+        android:id="@+id/trend_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        style="@style/aurora_daynight_theme">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/area_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/history"
+                app:riv_oval="true" /> <!--riv_oval是否圆形-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/trend_article"
+                    style="@style/aurora_daynight_theme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="小黄鸭"
+                    android:textSize="20sp" /><!--标题-->
+
+                <TextView
+                    android:id="@+id/trend_area"
+                    style="@style/aurora_daynight_theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="小黄鸭"
+                    android:textSize="12sp" /><!--分区-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/trend_article_meta"
+            style="@style/aurora_daynight_theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="100"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text=""
+            android:ellipsize="end"
+            android:textSize="@dimen/normal_font" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/upgrade"
+        android:orderInCategory="101"
+        android:title="@string/manage_upgrade"/>
+
+    <item
+        android:id="@+id/kick_out"
+        android:orderInCategory="102"
+        android:title="@string/manage_kick_out"/>
+
+    <item
+        android:id="@+id/transfer_master"
+        android:orderInCategory="103"
+        android:title="@string/manage_transfer"/>
+
+    <item
+        android:id="@+id/dismiss"
+        android:orderInCategory="103"
+        android:title="@string/manage_dismiss"/>
+
+    <item
+        android:id="@+id/block"
+        android:orderInCategory="104"
+        android:title="@string/manage_block"/>
+
+
+
+</menu>

@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bskim:maxheightscrollview:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/781d2543769080973b38eabd38e3a6d4/transformed/jetified-maxheightscrollview-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/781d2543769080973b38eabd38e3a6d4/transformed/jetified-maxheightscrollview-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/781d2543769080973b38eabd38e3a6d4/transformed/jetified-maxheightscrollview-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9f985314f74db4be9fcc3c8379591211/transformed/jetified-maxheightscrollview-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f985314f74db4be9fcc3c8379591211/transformed/jetified-maxheightscrollview-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f985314f74db4be9fcc3c8379591211/transformed/jetified-maxheightscrollview-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/56199233af331c64df6c44d8428f1415/transformed/jetified-maxheightscrollview-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/56199233af331c64df6c44d8428f1415/transformed/jetified-maxheightscrollview-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/56199233af331c64df6c44d8428f1415/transformed/jetified-maxheightscrollview-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8a607c17928f53fa999b46fa50ef7ba2/transformed/jetified-maxheightscrollview-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8a607c17928f53fa999b46fa50ef7ba2/transformed/jetified-maxheightscrollview-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8a607c17928f53fa999b46fa50ef7ba2/transformed/jetified-maxheightscrollview-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bskim/maxheightscrollview/1.0.0/1dcc7dcdcd1d2234da59377156dc14367f10ac57/maxheightscrollview-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bskim/maxheightscrollview/1.0.0/bbd873d2c5bddfc11c9d5e49a23d3416392ac0bd/maxheightscrollview-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

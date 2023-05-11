@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:background="@color/aurora_label"
+        android:textColor="@color/aurora_font"
+        android:text="@string/content_save_image_hint"
+        android:textSize="25sp"
+        android:gravity="center" />
+
+    <com.bm.library.PhotoView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"/>
+
+</LinearLayout>

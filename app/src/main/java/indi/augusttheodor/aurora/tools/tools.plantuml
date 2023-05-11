@@ -1,0 +1,241 @@
+@startuml
+
+title __TOOLS's Class Diagram__\n
+
+
+
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.AuroraTextClickableSpan {
+            {static} + article : String
+            {static} + group : String
+            {static} + transmit : String
+            {static} + trend : String
+            {static} + user : String
+            - context : Context
+            - id : String
+            - type : String
+            + AuroraTextClickableSpan()
+            + onClick()
+            + updateDrawState()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.ContentImageListener {
+            + context : Context
+            - images : ArrayList<String>
+            + ContentImageListener()
+            + afterTextChanged()
+            + beforeTextChanged()
+            + onTextChanged()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.HeartBeat {
+            {static} + context : Context
+            {static} + notice_editor : Editor
+            {static} + notice_pref : SharedPreferences
+            {static} + q_message : int
+            {static} + q_notice : int
+            {static} + q_reply : int
+            {static} + reply_pref : SharedPreferences
+            {static} + reply_set : List<NoticeReplyObject>
+            {static} + singleton : HeartBeat
+            {static} + sum : int
+            {static} + v : OnClickListener
+            {static} + webSocket : WebSocket
+            {static} - reply_editor : Editor
+            {static} + createHeaderPref()
+            {static} + getInstance()
+            + onFailure()
+            + onMessage()
+            + onMessage()
+            + onOpen()
+            {static} + sendSumBoardCasted()
+            - HeartBeat()
+            - clearHistory()
+            - run()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.HeartBeat.HeartBeatObject {
+            + comment : String
+            + message : String
+            + notice : String
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.HeartBeat.ShortUserObject {
+            + author_id : String
+            + author_name : String
+            + author_nick : String
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.ImageClickableMovementMethod {
+            {static} - sInstance : ImageClickableMovementMethod
+            {static} + getInstance()
+            + onTouchEvent()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.ListenerAssemble {
+            {static} + jumpToArticle : JumpToArticle
+            {static} + jumpToChat : JumpToChat
+            {static} + jumpToSummary : JumpToSummary
+            {static} + jumpToTopic : JumpToGroup
+            {static} + jumpToUser : JumpToUser
+            + ListenerAssemble()
+        }
+      }
+    }
+  
+
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.ListenerAssemble.RecyclerViewToBottom {
+            + RecyclerViewToBottom()
+            + onScrollStateChanged()
+            + onScrolled()
+            - findMax()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.OkHttpPackage {
+            + gson : Gson
+            + OkHttpPackage()
+            + asyncImageRequest()
+            + asyncRequest()
+            + createClient()
+            + getJsonKV()
+            {static} + showToastResponse()
+            + socketRequest()
+            - call()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.RecyclerViewAdapter {
+            + fragment : Fragment
+            + item : AdapterItems<V>
+            + RecyclerViewAdapter()
+            + getItemCount()
+            + getItemViewType()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+  
+
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.SettingObject {
+            {static} + editor : Editor
+            {static} + pref : SharedPreferences
+            {static} - string_dark_theme : String
+            {static} - string_message_hint : String
+            {static} - string_notice_hint : String
+            {static} - string_notice_number : String
+            {static} - string_reply_hint : String
+            {static} - string_session : String
+            {static} - string_sum_hint : String
+            {static} + apply()
+            {static} + getDark_theme()
+            {static} + getMessageHint()
+            {static} + getNoticeHint()
+            {static} + getReplyHint()
+            {static} + getSession()
+            {static} + getStringNoticeNumber()
+            {static} + getSumHint()
+            {static} + setDark_theme()
+            {static} + setMessageHint()
+            {static} + setNoticeHint()
+            {static} + setReplyHint()
+            {static} + setSession()
+            {static} + setStringNoticeNumber()
+            {static} + setSumHint()
+        }
+      }
+    }
+  
+
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.WaterMarkUtils {
+            {static} + createWaterMark()
+        }
+      }
+    }
+  
+
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

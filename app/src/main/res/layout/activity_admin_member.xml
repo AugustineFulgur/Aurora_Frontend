@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/aurora_daynight_background">
+
+    <LinearLayout
+        style="@style/aurora_daynight_theme"
+        android:elevation="6dip"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/group_name"
+            android:layout_marginLeft="10dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/aurora_font"
+            android:textSize="20sp"
+            android:text="@string/manage_admin"/>
+
+        <TextView
+            android:layout_marginLeft="10dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/aurora_font"
+            android:textSize="@dimen/normal_font"
+            android:text="@string/manage"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:textSize="@dimen/normal_font"
+                android:gravity="bottom"
+                android:paddingLeft="10dip"
+                android:text="@string/master"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:orientation="horizontal"
+                style="@style/aurora_daynight_theme">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/master_nick"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:layout_marginLeft="20dip"
+                    android:src="@mipmap/history"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:riv_oval="true" />
+
+                <TextView
+                    style="@style/aurora_daynight_theme"
+                    android:id="@+id/master_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    app:layout_constraintLeft_toRightOf="@+id/master_nick"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:text="小黄鸭"/>
+
+                <View
+                    android:id="@+id/master_link"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dip"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:background="@color/aurora_grey"/> <!--存在这，我真是个天才^ ^-->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:textSize="@dimen/normal_font"
+                android:gravity="bottom"
+                android:paddingLeft="10dip"
+                android:text="@string/admin"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

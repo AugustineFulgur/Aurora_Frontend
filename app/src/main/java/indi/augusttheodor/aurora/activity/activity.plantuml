@@ -1,0 +1,617 @@
+@startuml
+title __ACTIVITY's Class Diagram__\n
+
+
+skinparam dpi 4000
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminApplyActivity {
+            + items : AdapterItems<AdminApplyObject>
+            + recycler : RecyclerView
+            - group_id : String
+            - p : int
+            + onNext()
+            + onResponse()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminBlockMemberActivity {
+            + items : AdapterItems<MemberObject>
+            + recycler : RecyclerView
+            - group_id : String
+            - p : int
+            + onNext()
+            + onResponse()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminGroupActivity {
+            - group_id : String
+            - group_name : String
+            - group_pic : String
+            + onClick()
+            + onColorSelected()
+            + onDialogDismissed()
+            + onResponse()
+            # onActivityResult()
+            # onCreate()
+            - callModifyGroupData()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminJoinTypeActivity {
+            {static} - CONDITION_ANSWER : String
+            {static} - CONDITION_APPLY : String
+            {static} - CONDITION_FOLLOWED : String
+            {static} - CONDITION_NO_CONDITION : String
+            - group_id : String
+            - type_group : XRadioGroup
+            + onClick()
+            + onResponse()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminLogActivity {
+            + items : AdapterItems<AdminLogObject>
+            + recycler : RecyclerView
+            - group_id : String
+            - p : int
+            + onNext()
+            + onResponse()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminMemberActivity {
+            + items : AdapterItems<MemberObject>
+            + recycler : RecyclerView
+            - group_id : String
+            - p : int
+            + onNext()
+            + onResponse()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminReportByHotActivity {
+            + items : AdapterItems<AdminReportArticleObject>
+            + recycler : RecyclerView
+            - group_id : String
+            - p : int
+            + onNext()
+            + onResponse()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminReportByTimeActivity {
+            + items : AdapterItems<AdminReportLogObject>
+            + recycler : RecyclerView
+            - group_id : String
+            - p : int
+            + onNext()
+            + onResponse()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminSearchMemberActivity {
+            + items : AdapterItems<MemberObject>
+            + recycler : RecyclerView
+            + search_content : TextView
+            - dict : HashMap<String, String>
+            - group_id : String
+            - p : int
+            + onClick()
+            + onNext()
+            + onResponse()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.ArticleActivity {
+            + activity : AppCompatActivity
+            + article_id : String
+            - view_pager : ViewPager2
+            + onMenuItemClick()
+            + writeMeta()
+            # onCreate()
+            - setSuper()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.ArticleActivity.ArticleLayoutAdapter {
+            + ArticleLayoutAdapter()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.ChatMessageActivity {
+            + user_id : String
+            + user_name : String
+            - items : AdapterItems<DbChatMessage>
+            - message_list : Iterator<DbChatMessage>
+            - p : int
+            - recycler : RecyclerView
+            - swipe : SwipeRefreshLayout
+            + onClick()
+            + onNext()
+            + onRefresh()
+            + onResponse()
+            {static} + waitForHeader()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.CreateArticleActivity {
+            - article_type : int
+            - content : EditText
+            - content_images : ArrayList<String>
+            - group_id : String
+            + onClick()
+            + onFocusChange()
+            + onResponse()
+            # onActivityResult()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.CreateSummaryActivity {
+            - desc : TextView
+            - name : TextView
+            - pic : ImageView
+            - pic_name : String
+            - summary_type : int
+            + onClick()
+            + onFocusChange()
+            + onResponse()
+            # onActivityResult()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.CreateTransmitActivity {
+            - article_id : String
+            + onClick()
+            + onResponse()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.CreateTrendActivity {
+            - article_type : int
+            - content : EditText
+            - content_images : ArrayList<String>
+            + onClick()
+            + onFocusChange()
+            + onResponse()
+            # onActivityResult()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.GroupActivity {
+            - group_id : String
+            - group_name : String
+            - view_pager : ViewPager2
+            + onCheckedChanged()
+            + onClick()
+            + onMenuItemClick()
+            + onResponse()
+            # onCreate()
+            - refreshMenu()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.GroupActivity.GroupLayoutAdapter {
+            - fragment_list : ArrayList<Fragment>
+            + GroupLayoutAdapter()
+            + createFragment()
+            + getItemCount()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.GroupListActivity {
+        }
+      }
+    }
+
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.LoginActivity {
+            + onClick()
+            + onResponse()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.NavigatorActivity {
+            - ids : HashMap<Integer, Integer>
+            - navigate_bar : RadioGroup
+            - view_pager : ViewPager2
+            + onCheckedChanged()
+            # onCreate()
+            - setIds()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.NavigatorActivity.NavigatorLayoutAdapter {
+            + NavigatorLayoutAdapter()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.NoticeActivity {
+            - detector : GestureDetector
+            - ids : HashMap<Integer, Integer>
+            - sum_information : Button
+            - sum_message : Button
+            - sum_reply : Button
+            - view_pager : ViewPager2
+            + dispatchTouchEvent()
+            + onCheckedChanged()
+            # onCreate()
+            - setIds()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.NoticeActivity.NoticeLayoutAdapter {
+            + NoticeLayoutAdapter()
+        }
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.ReportDialogActivity {
+            + items : AdapterItems<ReportReasonObject>
+            + recycler : RecyclerView
+            + sth_id : String
+            + type : String
+            + onClick()
+            + onResponse()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.SearchActivity {
+            + group : XRadioGroup
+            + search : TextView
+            + view_pager : ViewPager2
+            - detector : GestureDetector
+            - ids : HashMap<Integer, Integer>
+            + dispatchTouchEvent()
+            + onCheckedChanged()
+            + onClick()
+            # onCreate()
+            - setIds()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.SearchActivity.SearchLayoutAdapter {
+            - fragment_list : ArrayList<SearchFragment>
+            + SearchLayoutAdapter()
+            + createFragment()
+            + getItemCount()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.SettingActivity {
+            + onClick()
+            # onActivityResult()
+            # onCreate()
+            - callModifyUserData()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.SummaryActivity {
+            + items : AdapterItems<SummaryArticleObject>
+            + recycler : RecyclerView
+            + summary_id : String
+            - is_author : boolean
+            - is_following : boolean
+            - p : int
+            - summary_dict : TextView
+            - summary_following : TextView
+            + onClick()
+            + onMenuItemClick()
+            + onNext()
+            + onResponse()
+            # onActivityResult()
+            # onCreate()
+            - callModifySummaryData()
+            - refreshMenu()
+        }
+      }
+    }
+
+
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.TransmitActivity {
+            + activity : AppCompatActivity
+            + comment_inside : TextView
+            + comment_outside : TextView
+            + origin_id : String
+            + view_pager : ViewPager2
+            + onMenuItemClick()
+            + onResponse()
+            + writeMeta()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.TransmitActivity.TransmitDeltaObject {
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.TransmitActivity.TransmitLayoutAdapter {
+            + TransmitLayoutAdapter()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.TrendActivity {
+            + activity : AppCompatActivity
+            + article_id : String
+            - view_pager : ViewPager2
+            + dispatchTouchEvent()
+            + onMenuItemClick()
+            + writeMeta()
+            # onCreate()
+        }
+      }
+    }
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.TrendActivity.TrendLayoutAdapter {
+            + TrendLayoutAdapter()
+        }
+      }
+    }
+
+
+
+
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.UserDetailActivity {
+            {static} - ARTICLE_VIEW : int
+            {static} - TREND_VIEW : int
+            - follow_btn : Button
+            - handler : Handler
+            - is_blocking : boolean
+            - is_following : boolean
+            - items : AdapterItems<StreamMetaObject>
+            - menu : PopupMenu
+            - p : int
+            - user_id : String
+            + onClick()
+            + onMenuItemClick()
+            + onResponse()
+            + refresh_stream()
+            # onCreate()
+            - refreshMenu()
+        }
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

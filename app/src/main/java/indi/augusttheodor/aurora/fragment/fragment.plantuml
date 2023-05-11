@@ -1,0 +1,233 @@
+@startuml
+
+title __FRAGMENT's Class Diagram__\n
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.ArticleShowCommentFragment {
+            + items : AdapterItems<CommentMetaObject>
+            - article_id : String
+            - is_article : boolean
+            - p : int
+            - recycler : RecyclerView
+            + ArticleShowCommentFragment()
+            + onCreateView()
+            + onNext()
+            + onResponse()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.ArticleShowTransmitFragment {
+            - article_id : String
+            - items : AdapterItems<TransmitMetaObject>
+            - p : int
+            - recycler : RecyclerView
+            + ArticleShowTransmitFragment()
+            + onCreateView()
+            + onNext()
+            + onResponse()
+        }
+      }
+    }
+
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.GroupArticleFragment {
+            - group_id : String
+            - hot_page : int
+            - isNew : boolean
+            - items : AdapterItems<GroupArticleObject>
+            - new_page : int
+            - swipe : SwipeRefreshLayout
+            - title : String
+            + GroupArticleFragment()
+            + GroupArticleFragment()
+            + onCreateView()
+            + onNext()
+            + onRefresh()
+            + onResponse()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.NoticeLogFragment {
+            - items : AdapterItems<NoticeLogObject>
+            - log_set : List<NoticeLogObject>
+            - p : int
+            - recycler : RecyclerView
+            + onCreateView()
+            + onNext()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.NoticeMessageOutSuitFragment {
+            - items : AdapterItems<DbChatHeader>
+            - message_header_set : List<DbChatHeader>
+            - p : int
+            - recycler : RecyclerView
+            + onCreateView()
+            + onNext()
+            + onResume()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.NoticeReplyFragment {
+            - items : AdapterItems<NoticeReplyObject>
+            - p : int
+            - recycler : RecyclerView
+            - reply_set : List<NoticeReplyObject>
+            + onCreateView()
+            + onNext()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.RandomStreamFragment {
+            - items : AdapterItems<StreamMetaObject>
+            - recycler : RecyclerView
+            - swipe : SwipeRefreshLayout
+            + onCreateView()
+            + onRefresh()
+            + onResponse()
+            + onResume()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.SearchArticleFragment {
+            - activity : Activity
+            - items : AdapterItems<StreamMetaObject>
+            - keyword : String
+            - p : int
+            - recycler : RecyclerView
+            + SearchArticleFragment()
+            + clear()
+            + onCreateView()
+            + onNext()
+            + onResponse()
+            + setKeywordNext()
+        }
+      }
+    }
+  
+
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.SquareFragment {
+            ~ group_items : AdapterItems<GroupListObject>
+            ~ group_recycler : RecyclerView
+            ~ search : TextView
+            ~ top_items : AdapterItems<TopArticleObject>
+            ~ top_recycler : RecyclerView
+            + onClick()
+            + onCreateView()
+            + onResponse()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.SquareStreamFragment {
+            - ids : HashMap<Integer, Integer>
+            - radio_group : RadioGroup
+            - view_pager : ViewPager2
+            + onCheckedChanged()
+            + onCreateView()
+            + setIds()
+        }
+      }
+    }
+  
+
+  
+  
+
+
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.SubscribeStreamFragment {
+            - items : AdapterItems<StreamMetaObject>
+            - p : int
+            - recycler : RecyclerView
+            - swipe : SwipeRefreshLayout
+            + onCreateView()
+            + onNext()
+            + onRefresh()
+            + onResponse()
+        }
+      }
+    }
+  
+  
+
+
+    namespace indi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.UserMetaFragment {
+            + onClick()
+            + onCreateView()
+            + onResponse()
+            + onResume()
+        }
+      }
+    }
+  
+
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

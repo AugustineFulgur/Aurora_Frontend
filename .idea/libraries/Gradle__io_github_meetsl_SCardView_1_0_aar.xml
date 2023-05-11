@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.meetsl:SCardView:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2ca20066eff6060f3c63e859250b1f82/transformed/jetified-SCardView-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2ca20066eff6060f3c63e859250b1f82/transformed/jetified-SCardView-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2ca20066eff6060f3c63e859250b1f82/transformed/jetified-SCardView-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/717fdf60c1df5a1eb0b5647733f8bf5f/transformed/jetified-SCardView-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/717fdf60c1df5a1eb0b5647733f8bf5f/transformed/jetified-SCardView-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/717fdf60c1df5a1eb0b5647733f8bf5f/transformed/jetified-SCardView-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1615678ac4409e62fccded3bf4016d1e/transformed/jetified-SCardView-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1615678ac4409e62fccded3bf4016d1e/transformed/jetified-SCardView-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1615678ac4409e62fccded3bf4016d1e/transformed/jetified-SCardView-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b1bd13378927cca4a2721a6204725356/transformed/jetified-SCardView-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b1bd13378927cca4a2721a6204725356/transformed/jetified-SCardView-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b1bd13378927cca4a2721a6204725356/transformed/jetified-SCardView-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b47467822ce5a22f01c094bc73c0bfbe/transformed/jetified-SCardView-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b47467822ce5a22f01c094bc73c0bfbe/transformed/jetified-SCardView-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b47467822ce5a22f01c094bc73c0bfbe/transformed/jetified-SCardView-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0668d8ca4c56b4e29a193cfde07a86fe/transformed/jetified-SCardView-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0668d8ca4c56b4e29a193cfde07a86fe/transformed/jetified-SCardView-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0668d8ca4c56b4e29a193cfde07a86fe/transformed/jetified-SCardView-1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/trend_link"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    style="@style/aurora_daynight_theme"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/aurora_font"
+            android:text="小黄鸭"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:textColor="@color/aurora_grey"
+            android:layout_marginLeft="10dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2022.12.12"/>
+
+        <TextView
+            android:id="@+id/notice_type"
+            android:layout_marginLeft="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/aurora_grey"
+            android:text="@string/to_reply"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/aurora_font"
+        android:textSize="@dimen/normal_font"
+        android:text="尔康，莫斯科的ball转啊转，lets 恋爱！"/>
+
+    <LinearLayout
+        android:id="@+id/reply_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:textColor="@color/aurora_grey"
+            android:text="在回复："/>
+
+        <TextView
+            android:id="@+id/origin_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/normal_font"
+            android:textStyle="bold"
+            android:textColor="@color/aurora_font"
+            android:text="我不管你承不承认，紫薇，我萱你^ ^"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/trend_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:textColor="@color/aurora_grey"
+            android:text="在帖子："/>
+
+        <TextView
+            android:id="@+id/origin_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/normal_font"
+            android:textStyle="bold"
+            android:textColor="@color/aurora_font"
+            android:text="八一八清宫那些事~"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="@color/aurora_grey"/>
+
+</LinearLayout>
+
+

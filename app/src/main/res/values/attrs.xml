@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--添加自定义控件属性-->
+<resources>
+    <!--使用
+    xmlns:aurora="https://schemas.android.com/apk/res/indi.augusttheodor.aurora"
+    引入-->
+    <declare-styleable name="DragBubbleView">
+        <attr name="bubbleRadius" format="dimension" />
+        <attr name="bubbleColor" format="color" />
+        <attr name="text" format="string" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+</resources>

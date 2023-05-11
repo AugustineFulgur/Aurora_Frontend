@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SearchActivity"
+    style="@style/aurora_daynight_background">
+
+    <RelativeLayout
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dip">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dip"
+            android:background="@drawable/round_shape_edittext"
+            android:hint="@string/content_search"
+            android:paddingLeft="20dip"
+            android:paddingRight="40dip"
+            android:textSize="15dip" /><!--搜索栏-->
+
+        <RadioButton
+            android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dip"
+            android:layout_alignRight="@+id/search"
+            android:button="@drawable/search"/>
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:background="@color/aurora_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RadioGroup
+            android:id="@+id/bar"
+            style="@style/aurora_daynight_theme"
+            android:paddingRight="30dip"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/article"
+                android:layout_marginLeft="30dip"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:background="@color/transparent"
+                android:drawableBottom="@drawable/selector_clickline"
+                android:gravity="center"
+                android:text="@string/article" />
+
+            <RadioButton
+                android:id="@+id/group"
+                android:layout_marginLeft="30dip"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:background="@color/transparent"
+                android:drawableBottom="@drawable/selector_clickline"
+                android:gravity="center"
+                android:text="@string/group" />
+
+        </RadioGroup>
+
+    </HorizontalScrollView>
+
+    <androidx.viewpager2.widget.ViewPager2
+        style="@style/aurora_daynight_theme"
+        android:id="@+id/viewpager2"
+        android:layout_marginTop="20dip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

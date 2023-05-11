@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--回复和私信等的页面-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/aurora_daynight_theme"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <com.lijiankun24.shadowlayout.ShadowLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dip"
+        android:elevation="5dip"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shadowColor="#41000000"
+        app:shadowRadius="3dp"
+        app:shadowSide="top"
+        android:clipChildren="false"/> <!--外部阴影-->
+
+
+    <me.shihao.library.XRadioGroup
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/aurora_label"
+        android:elevation="6dip"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dip"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clipChildren="false">
+
+            <RadioButton
+                android:id="@+id/notice_reply"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+                android:paddingRight="25dip"
+                android:paddingLeft="35dip"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:checked="true"
+                android:background="@drawable/selector_round_rect_left"
+                android:button="@null"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:text="@string/notice_reply"/>
+
+            <indi.augusttheodor.aurora.others.DragBubbleView
+                android:id="@+id/new_reply"
+                android:elevation="10dip"
+                app:layout_constraintBottom_toBottomOf="@id/notice_reply"
+                app:layout_constraintRight_toRightOf="@id/notice_reply"
+                android:visibility="invisible"
+                app:text="1234"
+                android:textSize="10sp"
+                android:textColor="@color/font"
+                android:layout_width="20dip"
+                android:layout_height="20dip"/>
+
+            <RadioButton
+                android:id="@+id/notice_message"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/notice_reply"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+                android:paddingRight="30dip"
+                android:paddingLeft="30dip"
+                android:background="@drawable/selector_round_rect_center"
+                android:button="@null"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:text="@string/notice_message"/>
+
+            <indi.augusttheodor.aurora.others.DragBubbleView
+                android:id="@+id/new_message"
+                app:layout_constraintBottom_toBottomOf="@id/notice_message"
+                app:layout_constraintRight_toRightOf="@id/notice_message"
+                android:visibility="invisible"
+                android:text="99+"
+                android:textSize="10sp"
+                android:textColor="@color/font"
+                android:layout_width="20dip"
+                android:layout_height="20dip"/>
+
+            <RadioButton
+                android:id="@+id/notice_information"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/notice_message"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+                android:paddingLeft="25dip"
+                android:paddingRight="35dip"
+                android:background="@drawable/selector_round_rect_right"
+                android:button="@null"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:text="@string/notice_information"/>
+
+            <indi.augusttheodor.aurora.others.DragBubbleView
+                android:id="@+id/new_information"
+                app:layout_constraintBottom_toBottomOf="@id/notice_information"
+                app:layout_constraintRight_toRightOf="@id/notice_information"
+                android:visibility="invisible"
+                android:text="99+"
+                android:textSize="10sp"
+                android:textColor="@color/font"
+                android:layout_width="20dip"
+                android:layout_height="20dip"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </me.shihao.library.XRadioGroup>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dip"
+        android:background="@color/aurora_background" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

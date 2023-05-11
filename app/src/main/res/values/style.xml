@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--底部导航栏的style-->
+    <style name="navigate_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item><!--去除RadioButton默认带的圆点-->
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textColor">@color/aurora_font</item>
+    </style>
+
+    <style name="aurora_daynight_theme" parent="Theme.AppCompat.DayNight">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Toast</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:background">@color/aurora_label</item>
+        <item name="android:textColor">@color/aurora_font</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="aurora_daynight_background" parent="Theme.AppCompat.DayNight">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Toast</item>
+        <item name="android:background">@color/aurora_background</item>
+    </style>
+
+    <style name="aurora_radiobutton_remove">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+
+    <!--重写系统弹出Dialog -->
+    <style name="NoTopBarDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+</resources>

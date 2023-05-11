@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.UserMetaFragment"
+    style="@style/aurora_daynight_theme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/user_detail_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <ImageView
+                android:id="@+id/bimg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:scaleType="centerCrop" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@drawable/background_gradual" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/bimg"
+                app:layout_constraintBottom_toBottomOf="@id/bimg">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/himg"
+                    android:layout_width="108dp"
+                    android:layout_height="108dip"
+                    android:src="@drawable/ic_launcher_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:riv_oval="true" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:textColor="@color/aurora_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:layout_marginTop="20dip"
+                    app:layout_constraintTop_toBottomOf="@id/himg"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textSize="23sp"
+                    android:textStyle="bold" /><!--用户名-->
+
+                <TextView
+                    android:id="@+id/signature"
+                    android:textColor="@color/aurora_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/name"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:layout_marginTop="5dip"
+                    android:textSize="@dimen/normal_font" /><!--签名-->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.meetsl.scardview.SCardView
+            android:layout_width="match_parent"
+            android:layout_height="75dip"
+            app:cardElevation="3dip">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip">  <!--数据组-->
+                <LinearLayout
+                    android:id="@+id/seek_article"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="@color/aurora_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="发帖"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:textColor="@color/aurora_font"
+                        android:id="@+id/article"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:textSize="@dimen/normal_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/seek_group"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="@color/aurora_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="加入分组"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:textColor="@color/aurora_font"
+                        android:id="@+id/group"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:textSize="@dimen/normal_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/seek_following"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="@color/aurora_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="关注"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:textColor="@color/aurora_font"
+                        android:id="@+id/following"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:textSize="@dimen/normal_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/seek_followed"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="@color/aurora_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="被关注"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:textColor="@color/aurora_font"
+                        android:id="@+id/followed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:textSize="@dimen/normal_font" />
+                </LinearLayout>
+        </TableRow>
+
+        </com.meetsl.scardview.SCardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.meetsl.scardview.SCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dip"
+                    app:cardElevation="3dip">
+
+                    <RadioButton
+                        android:id="@+id/seek_homepage"
+                        style="@style/aurora_radiobutton_remove"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:button="@null"
+                        android:drawableRight="@drawable/arrow_right"
+                        android:gravity="center"
+                        android:paddingLeft="36dip"
+                        android:text="@string/seek_my_homepage"
+                        android:textSize="20sp" />
+
+                </com.meetsl.scardview.SCardView>
+
+                <com.meetsl.scardview.SCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dip"
+                    app:cardElevation="3dip">
+
+                    <RadioButton
+                        android:id="@+id/seek_summary"
+                        style="@style/aurora_radiobutton_remove"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:button="@null"
+                        android:drawableRight="@drawable/arrow_right"
+                        android:gravity="center"
+                        android:paddingLeft="36dip"
+                        android:text="@string/seek_my_star"
+                        android:textSize="20sp" />
+
+                </com.meetsl.scardview.SCardView>
+
+                <com.meetsl.scardview.SCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dip"
+                    app:cardElevation="3dip">
+
+                    <RadioButton
+                        android:id="@+id/seek_following_summary"
+                        style="@style/aurora_radiobutton_remove"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:button="@null"
+                        android:drawableRight="@drawable/arrow_right"
+                        android:gravity="center"
+                        android:paddingLeft="36dip"
+                        android:text="@string/seek_my_follow"
+                        android:textSize="20sp" />
+
+                </com.meetsl.scardview.SCardView>
+
+                <com.meetsl.scardview.SCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dip"
+                    app:cardElevation="3dip">
+
+                    <RadioButton
+                        android:id="@+id/seek_setting"
+                        style="@style/aurora_radiobutton_remove"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:button="@null"
+                        android:drawableRight="@drawable/arrow_right"
+                        android:gravity="center"
+                        android:paddingLeft="36dip"
+                        android:text="@string/seek_my_setting"
+                        android:textSize="20sp" />
+
+                </com.meetsl.scardview.SCardView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/set_trend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dip"
+        android:layout_marginBottom="30dip"
+        android:backgroundTint="@color/aurora_theme"
+        android:src="@drawable/add"
+        app:borderWidth="0dp"
+        app:fabSize="auto" />
+
+</RelativeLayout>

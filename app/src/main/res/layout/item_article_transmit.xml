@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aurora="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/transmit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/aurora_daynight_theme">
+
+    <LinearLayout
+        android:id="@+id/user_link"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/nick_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dip"
+            android:src="@mipmap/history"
+            app:riv_oval="true" /> <!--riv_oval是否圆形-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/username"
+                style="@style/aurora_daynight_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小黄鸭"
+                android:textSize="@dimen/normal_font"
+                android:textStyle="bold" /><!--用户名-->
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/aurora_daynight_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="2022/2/8 12:26"
+                android:textSize="12sp" /><!--时间-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/comment_content"
+        style="@style/aurora_daynight_theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:text="这是一条转发"
+        android:textSize="@dimen/normal_font" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dip"
+        android:layout_marginLeft="70dp"
+        android:background="@color/aurora_grey" />
+
+</LinearLayout>

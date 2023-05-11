@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dip">
+
+        <RadioButton
+            android:id="@+id/random"
+            android:layout_width="40dip"
+            android:layout_height="25dip"
+            android:padding="2dip"
+            android:layout_margin="5dip"
+            android:background="@drawable/selector_btn_background"
+            android:button="@null"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/random"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:text="|"/>
+
+        <RadioButton
+            android:id="@+id/trends"
+            android:layout_width="40dip"
+            android:layout_height="25dip"
+            android:gravity="center"
+            android:padding="2dip"
+            android:layout_margin="5dip"
+            android:background="@drawable/selector_btn_background"
+            android:button="@null"
+            android:textStyle="bold"
+            android:text="@string/trends"/>
+
+    </RadioGroup>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        app:layout_constraintTop_toBottomOf="@id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dip"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="30dip"
+        android:layout_marginBottom="30dip"
+        android:backgroundTint="@color/aurora_theme"
+        android:src="@drawable/top"
+        app:borderWidth="0dp"
+        app:fabSize="auto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

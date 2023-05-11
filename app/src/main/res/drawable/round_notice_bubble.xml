@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <size android:width="30dip"
+        android:height="30dip"/><!--大小-->
+    <solid android:color="@color/notice_bubble"/><!--填充-->
+</shape>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <size android:width="30dip"
+        android:height="30dip"/><!--大小-->
+    <solid android:color="@color/aurora_theme"/><!--填充-->
+    <corners android:radius="10dip"/><!--圆角-->
+
+</shape>

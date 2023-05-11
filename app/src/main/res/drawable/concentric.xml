@@ -1,0 +1,33 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape
+            android:shape="oval"
+            android:useLevel="true">
+            <size
+                android:width="20dp"
+                android:height="20dp" />
+
+            <solid android:color="@color/transparent" />
+            <stroke
+                android:width="3dp"
+                android:color="@color/aurora_theme" />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="5dip"
+        android:left="5dip"
+        android:right="5dip"
+        android:top="5dip">
+        <shape
+            android:shape="oval"
+            android:useLevel="true">
+            <size
+                android:width="20dp"
+                android:height="20dp" />
+            <solid android:color="@color/aurora_background" />
+        </shape>
+    </item>
+
+</layer-list>

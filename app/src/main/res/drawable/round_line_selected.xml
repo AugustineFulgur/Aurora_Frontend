@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <size android:width="30dip"
+        android:height="3dip"/><!--大小-->
+    <solid android:color="@color/aurora_label"/><!--填充-->
+    <corners android:radius="30dp"/><!--圆角-->
+</shape> <!--这玩意没啥用，我衷心希望能有移除的一天-->

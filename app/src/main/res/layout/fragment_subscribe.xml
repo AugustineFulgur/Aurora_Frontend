@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SubscribeGroupFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dip"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/arrow_right"
+        android:drawableTint="@color/aurora_theme"
+        android:text="@string/content_prefer_group"/>
+
+    <com.bskim.maxheightscrollview.widgets.MaxHeightScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:maxHeight="240dip">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:id="@+id/prefer_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </com.bskim.maxheightscrollview.widgets.MaxHeightScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dip"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/arrow_right"
+        android:drawableTint="@color/aurora_theme"
+        android:textStyle="bold"
+        android:text="@string/content_subscribe_group"/>
+
+    <com.bskim.maxheightscrollview.widgets.MaxHeightScrollView
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:minHeight="120dip"
+        app:maxHeight="360dip">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:id="@+id/subscribe_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </com.bskim.maxheightscrollview.widgets.MaxHeightScrollView>
+
+</LinearLayout>

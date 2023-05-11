@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/aurora_daynight_theme"
+                android:layout_width="match_parent"
+                android:layout_height="80dip"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:background="@drawable/round_shape_edittext"
+                    android:hint="@string/content_search"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_marginLeft="50dip"
+                    android:layout_marginRight="50dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="40dip"
+                    android:textSize="17dip" /><!--搜索栏-->
+
+                <RadioButton
+                    android:id="@+id/search_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="@+id/search"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/search"
+                    android:paddingRight="10dip" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:text="@string/article_top"
+                android:textColor="@color/aurora_font"
+                android:textSize="20sp"
+                app:drawableStartCompat="@drawable/arrow_right"
+                app:drawableTint="@color/aurora_theme" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/aurora_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:text="@string/rank_group"
+                app:drawableTint="@color/aurora_theme"
+                app:drawableStartCompat="@drawable/arrow_right" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RadioButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/transmit"
+    android:layout_width="wrap_content"
+    android:layout_marginLeft="30dip"
+    android:layout_height="match_parent"
+    android:button="@null"
+    android:background="@color/transparent"
+    android:drawableBottom="@drawable/selector_clickline"
+    android:gravity="center"
+    android:text="@string/transmit" />
+

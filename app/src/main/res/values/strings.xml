@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">破晓</string>
+    <string name="app_label_name">破晓 @</string>
+    <string name="app_version">0.4.4</string>
+
+    <string name="bugly_id">66d3cab815</string>
+
+    <string name="version_content">版本： v </string>
+
+    <string name="image_span">&lt;AURORA_IMAGE&gt;</string> <!--图片span-->
+    <string name="image_content">【图片】</string>
+
+    <string name="notice_reply">回复</string>
+    <string name="notice_message">私信</string>
+    <string name="notice_information">通知</string>
+
+    <string name="in_article">在帖子：</string>
+    <string name="in_trend">在动态：</string>
+    <string name="in_transmit">在转发：</string>
+
+    <string name="report_reason">被举报理由：</string>
+    <string name="report_time">被举报次数：</string>
+
+    <string name="to_reply">回复了你：</string>
+    <string name="to_attention">提到了你：</string>
+
+    <string name="agree">批准</string>
+    <string name="refuse">拒绝</string>
+    <string name="group">分组</string>
+    <string name="article">帖子</string>
+    <string name="trends">动态</string>
+    <string name="subscribe">订阅</string>
+    <string name="mine">我的</string>
+    <string name="register_u"><u>注册</u></string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="time">时间</string>
+
+    <string name="create_summary">新建收藏夹</string>
+    <string name="hint_summary_name">收藏夹名</string>
+    <string name="hint_summary_desc">描述…（选填）</string>
+    <string name="content_user_summary">她的公开收藏夹</string>
+
+    <string name="star_group">收藏分组</string>
+    <string name="share_inside">社区内分享</string>
+    <string name="share_outside">分享到外部（暂未开放）</string>
+
+    <string name="hot">热门</string>
+    <string name="fresh">最新</string>
+    <string name="random">随机</string>
+
+    <string name="report_group">举报分组</string>
+    <string name="sign_out_group">退出分组</string>
+    <string name="report">举报</string>
+    <string name="block">加入黑名单</string>
+    <string name="unblock">从黑名单中放出</string>
+    <string name="unfollow">取消关注</string>
+    <string name="send_message">发送私信</string>
+    <string name="delete">删除</string>
+    <string name="rank_group">分组排行</string>
+    <string name="article_top">社区置顶</string>
+
+    <string name="chat_user_detail">查看用户主页</string>
+    <string name="chat_delete_record">删除聊天记录</string>
+
+    <string name="change_summary_name">修改收藏夹标题</string>
+    <string name="change_summary_desc">修改收藏夹描述</string>
+    <string name="change_summary_pic">修改收藏夹封面</string>
+    <string name="delete_summary">删除收藏夹</string>
+    <string name="delete_summary_article">删除收藏夹文章</string>
+
+    <string name="ok">确定</string>
+    <string name="chancel">取消</string>
+    <string name="up">顶一下</string>
+    <string name="like">点赞</string>
+    <string name="comment">评论</string>
+    <string name="set_message">发送</string>
+    <string name="star">收藏</string>
+    <string name="transmit">转发</string>
+    <string name="create">发布</string>
+    <string name="manage">管理</string>
+    <string name="summary">精选集</string>
+    <string name="all">全部</string>
+    <string name="reply">▼ 回复（-1）</string>
+    <string name="set_comment">回复</string>
+    <string name="submit">提交</string>
+    <string name="save_image">保存图片</string>
+
+    <string name="follow_f">加入</string>
+    <string name="follow_t">已加入</string>
+    <string name="user_follow_f">关注</string>
+    <string name="user_follow_t">已关注</string>
+
+    <string name="delete_by_author">删除（以作者身份）</string>
+    <string name="delete_by_admin">删除（以管理员身份）</string>
+
+    <string name="seek_my_article">查看我发过的帖子</string>
+    <string name="seek_my_homepage">查看我的个人主页</string>
+    <string name="seek_my_star">查看我的收藏夹</string>
+    <string name="seek_my_follow">查看我关注的收藏夹</string>
+    <string name="seek_my_setting">设置</string>
+
+    <string name="content_subscribe_group">我加入的分组</string>
+    <string name="content_prefer_group">我爱去的分组</string>
+
+    <string name="content_save_image_hint">长按此处以保存图片</string>
+    <string name="content_download_success_hint">保存成功！</string>
+    <string name="content_pic404_hint">找不到图片！它是否已经被删除？</string>
+    <string name="content_io_fail_hint">保存过程中发生问题。</string>
+    <string name="content_password_hint">密码</string>
+    <string name="content_username_hint">账户名或邮箱地址</string>
+    <string name="content_register_username_hint">设置您的登录用户名</string>
+    <string name="content_register_nickname_hint">设置您的昵称</string>
+    <string name="content_register_password_hint">设置您的密码，建议使用两种以上字符</string>
+    <string name="content_register_repeat_password_hint">请重复您的密码</string>
+    <string name="hint_password_repeat_fail">您两次输入的密码不一致！请重新填写</string>
+    <string name="content_register_invitation_hint">请输入您的邀请码</string>
+    <string name="content_comment_hint">发布一条友善的评论吧~</string>
+    <string name="content_reply_hint">回复 0 ：</string>
+    <string name="content_message_hint">遵守社区规定，友善发言</string>
+    <string name="content_transmit_hint">说出你想说的…</string>
+    <string name="content_title_hint">标题</string>
+    <string name="content_search">全社区搜索…</string>
+    <string name="content_apply_hint">请输入您的申请内容或口令</string>
+    <string name="content_article_not_found_hint">这篇帖子/转发/动态已经找不到了哦？</string>
+
+    <string name="content_article_end_hint">—— 帖子已经到尽头了 ——</string>
+    <string name="content_transmit_end_hint">—— 转发已经到尽头了 ——</string>
+
+    <string name="setting_exit">退出登录</string>
+    <string name="setting_night_theme">夜间模式</string>
+    <string name="setting_get_id">获取个人ID</string>
+    <string name="setting_change_nickname">修改昵称（不超过20个字符）</string>
+    <string name="setting_change_himg">修改头像</string>
+    <string name="setting_change_bimg">修改个人背景图</string>
+    <string name="setting_change_signature">修改个人签名</string>
+    <string name="setting_change_password">修改密码</string>
+    <string name="setting_invite">邀请…</string>
+    <string name="setting_about">关于</string>
+
+    <string name="register_rule">1.登录用户名不可修改，长度在6-30字符之间，只允许出现数字/字母/下划线（登陆名不允许出现中文）\n
+        2.昵称是可以修改的，并且作为您在社区中的名字所展示。昵称的长度在3-20字符之间，只允许出现数字/字母/中文/下划线\n
+        3.密码长度在8-24字符之间，只允许出现数字/字母/(./\|_-)\n
+        4.邀请码为必填项，可以通过活动获取
+    </string>
+
+    <string name="invite_rule"><b>您将以自己为担保人邀请其他人进入社区。</b>\n
+        在输入被邀请人的邮箱之前，请您知悉：\n
+        1.若被邀请人的真实生理性别为男性，您和被邀请人的帐号<b>都</b>将被移除\n
+        2.若您的被邀请人中有多个帐号出现<b>严重</b>广告、辱骂等违反社区规范的行为，您的帐号将被剥夺邀请担保人资格\n
+        3.请您严格审核被邀请人的资质，但不要与被邀请人谈及隐私。社区并未要求您以询问隐私的方式审核被邀请人的资质，若被邀请人举报您在资质审核中询问私密问题，您亦将会受到相应的惩罚\n
+        4.在加入破晓时间满1个月或发帖数量在10以上后方能邀请其他人\n
+        5.由于邮箱发送存在限制，可能存在发送的邮件被拦截的情况，若被邀请人未收到邮件，请联系@破晓的Augustine
+    </string>
+
+    <string name="register_agreement">我已阅读并同意《破晓用户协议》</string>
+    <string name="hint_register_agreement">您未同意用户协议！</string>
+    <string name="agreement_title">破晓用户协议</string>
+
+    <string name="version_force_update">强制版本更新</string>
+    <string name="version_force_update_content">需要强制更新至版本{0}。若禁止更新，将不能继续使用APP。</string>
+    <string name="version_update_content">有新的版本{0}，当前版本为{1}。</string>
+    <string name="version_update_title">Aurora版本更新通知</string>
+
+    <string name="hint_invite_email">请输入被邀请人的邮箱</string>
+    <string name="hint_invite">邀请其他女性加入破晓</string>
+    <string name="hint_password">请输入您的密码</string>
+    <string name="hint_old_password">请输入您目前使用的密码</string>
+    <string name="hint_new_password">请输入您的新密码</string>
+    <string name="hint_version_wrong">检查版本更新时出现问题。</string>
+    <string name="hint_are_you_sure">您确定吗？</string>
+    <string name="hint_star_desc">收藏理由（可不填）</string>
+    <string name="hint_null_summary">这里还没有收藏夹哦？</string>
+    <string name="hint_require_reboot">修改成功，重启后将会应用</string>
+    <string name="hint_upload_success">上传成功！</string>
+    <string name="hint_upload_fail">上传失败，请重新上传或检查您的网络状况~</string>
+    <string name="hint_register_success">注册成功！</string>
+    <string name="hint_stream_fail">获取新数据失败！请检查您的网络状况~</string>
+    <string name="hint_comment_success">发表回复成功！</string>
+    <string name="hint_message_success">发送成功！</string>
+    <string name="hint_transmit_success">转发成功！</string>
+    <string name="hint_clipboard_success">已经将内容复制到剪贴板上。</string>
+    <string name="hint_set_success">操作成功！</string>
+    <string name="hint_already_star">已经在收藏里了哦？</string>
+    <string name="hint_set_fail">操作失败，请检查您的网络状况~</string>
+    <string name="hint_sign_status_fail">登录状态失效，请您重新登录！</string>
+    <string name="hint_reach_bottom">已经到底了哦？</string>
+    <string name="hint_not_in_group">您还没有加入分组，没有发言权限</string>
+    <string name="hint_compress_fail">压缩图片失败！请您重新上传</string>
+
+    <string name="from_group">来自组：</string>
+
+    <string name="replace_summary_create_time">创建于： 0</string>
+    <string name="replace_summary_dict">0 个内容</string>
+    <string name="replace_summary_following">0 个关注</string>
+
+    <string name="manage_member">成员管理</string>
+    <string name="manage_search_member">搜索组内成员</string>
+    <string name="manage_join_apply">查看申请记录</string>
+    <string name="manage_block_member">查看成员黑名单</string>
+    <string name="manage_content">内容管理</string>
+    <string name="manage_area">管理分区（暂未开放）</string>
+    <string name="manage_report_by_hot">按热度查看投诉</string>
+    <string name="manage_report_by_time">按时间查看投诉</string>
+    <string name="manage_etc">杂项</string>
+    <string name="manage_setting">设置</string>
+    <string name="manage_log">查看管理日志</string>
+    <string name="manage_group_theme_color">设置分组主题色</string>
+    <string name="manage_group_member_name">设置分组成员名</string>
+    <string name="manage_group_pic">设置分组头像</string>
+    <string name="manage_group_introduction">设置分组简介</string>
+    <string name="resignation">辞去管理职务</string>
+    <string name="manage_admin">查看管理员列表</string>
+    <string name="manage_join_type">设置分组加入方式</string>
+
+    <string name="master">组长</string>
+    <string name="admin">管理员</string>
+    <string name="search">搜索</string>
+
+    <string name="manage_upgrade">升为管理员</string>
+    <string name="manage_transfer">移交组长</string>
+    <string name="manage_kick_out">移出分组</string>
+    <string name="manage_block">移入黑名单</string>
+    <string name="manage_dismiss">移除管理员职位</string>
+    <string name="group_detail">分组详情</string>
+    <string name="group_admins">分组管理者</string>
+    <string name="top">置顶</string>
+    <string name="cancel_top">取消置顶</string>
+
+    <string name="condition_no_condition">无条件加入</string>
+    <string name="condition_apply">申请加入</string>
+    <string name="condition_followed">被关注数超过</string>
+    <string name="condition_answer">口令为</string>
+
+    <string name="deal_delete">删除发言</string>
+    <string name="deal_remove">移出发言人</string>
+    <string name="deal_kick">拉黑发言人</string>
+    <string name="deal_reject">不作处理</string>
+
+    <string name="article_public">公开</string>
+    <string name="article_protected">版权</string>
+    <string name="article_private">私密</string>
+
+    <string name="sign_link">[{0}:{1}:{2}]</string>
+
+</resources>

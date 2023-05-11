@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior = "@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/explore_type"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/fresh"
+                    android:layout_width="40dip"
+                    android:layout_height="25dip"
+                    android:padding="2dip"
+                    android:layout_margin="5dip"
+                    android:background="@drawable/selector_btn_background"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/fresh"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dip"
+                    android:text="|"/>
+
+                <RadioButton
+                    android:id="@+id/hot"
+                    android:layout_width="40dip"
+                    android:layout_height="25dip"
+                    android:padding="2dip"
+                    android:layout_margin="5dip"
+                    android:background="@drawable/selector_btn_background"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/hot"/>
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            app:layout_behavior = "@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dip"/>
+
+    </LinearLayout>
+    
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--App默认设置-->
+<resources>
+    <bool name="smooth_scroll">true</bool> <!--平滑切换-->
+    <bool name="default_dark_theme">true</bool> <!--默认暗色主题-->
+</resources>

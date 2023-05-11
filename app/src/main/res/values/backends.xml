@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--后端的url基础链接存放在这-->
+<resources>
+    <string name="backend_website">https://1.116.250.29/aurora/</string>
+    <string name="backend_socket">https://1.116.250.29/aurora/heartbeat/</string>
+    <string name="backend_image">http://1.116.250.29/aurora/image/</string>
+    <string name="backend_app">http://1.116.250.29/aurora/file/app/Aurora_{0}.apk</string>
+
+    <string name="backend_login">login/</string>
+    <string name="backend_register">register/</string>
+    <string name="backend_article">article/</string>
+    <string name="backend_transmit">transmit/</string>
+    <string name="backend_page">p/</string>
+    <string name="backend_set">set/</string>
+    <string name="backend_user">user/</string>
+    <string name="backend_user_prefer_group">user/prefer/group</string>
+    <string name="backend_user_follow_group">user/follow/group</string>
+    <string name="backend_group">group/</string>
+    <string name="backend_comment">comment/</string>
+    <string name="backend_like">like/</string>
+    <string name="backend_stream_square">stream/square/</string>
+    <string name="backend_short_query">meta/</string>
+    <string name="backend_fresh">fresh/</string>
+    <string name="backend_hot">hot/</string>
+
+    <string name="backend_group_follow">group/0/follow/</string>
+    <string name="backend_article_set_transmit">article/0/set/transmit/</string>
+    <string name="backend_article_up">article/0/up/</string>
+    <string name="backend_upload_image">upload/image/</string>
+    <string name="backend_group_set_article">group/0/set/article/</string>
+    <string name="backend_chat_set_message">chat/0/</string>
+    <string name="backend_heartbeat">heartbeat/</string>
+    <string name="backend_user_follow">user/0/follow/</string>
+    <string name="backend_user_block">user/0/block/</string>
+    <string name="backend_change_userdata">user/modify/</string>
+    <string name="backend_comment_prefer">comment/0/set/like/</string>
+    <string name="backend_user_summary_list">user/summary/list/p/</string>
+    <string name="backend_create_summary">set/summary/</string>
+    <string name="backend_add_article_to_summary">summary/{0}/add/{1}/</string>
+    <string name="backend_summary">summary/0/</string>
+    <string name="backend_summary_articles">summary/0/p/</string>
+    <string name="backend_change_summary_data">summary/0/modify/</string>
+    <string name="backend_delete_summary">summary/0/delete/</string>
+    <string name="backend_summary_article_modify">summary/{0}/article/{1}/modify/</string>
+    <string name="backend_summary_article_delete">summary/{0}/article/{1}/delete/</string>
+    <string name="backend_article_delete">article/0/delete/</string>
+    <string name="backend_report_reasons">report/{0}/{1}/reasons/</string>
+    <string name="backend_report_submit">report/{0}/{1}/submit/</string>
+    <string name="backend_report_article">group/0/report/article/p/</string>
+    <string name="backend_report_log">group/0/report/log/p/</string>
+    <string name="backend_admin_member">group/0/admin/member/p/</string>
+    <string name="backend_admin_master">group/0/admin/master/</string>
+    <string name="backend_admin_search_member">group/0/admin/search/p/</string>
+    <string name="backend_admin_block_member">group/0/admin/block/member/p/</string>
+    <string name="backend_admin_manage_member">group/{0}/admin/manage/member/{1}/</string>
+    <string name="backend_admin_manage_join_type">group/0/admin/manage/join/type/</string>
+    <string name="backend_admin_log">group/0/admin/log/p/</string>
+    <string name="backend_admin_apply">group/0/admin/apply/p/</string>
+    <string name="backend_admin_dismiss">group/0/dismiss/</string>
+    <string name="backend_change_group_data">group/0/modify/</string>
+    <string name="backend_article_rect">article/0/rect/</string>
+    <string name="backend_summary_follow">summary/0/follow/</string>
+    <string name="backend_set_trend">user/set/trend/</string>
+    <string name="backend_user_subscribe">user/subscribe/p/</string>
+    <string name="backend_deal_apply">group/{0}/admin/apply/{1}/deal/{2}/</string>
+    <string name="backend_user_history_article">user/history/article/p/</string>
+    <string name="backend_user_history_public">user/0/history/public/p/</string>
+    <string name="backend_user_detail_follow_group">user/detail/follow/group/</string>
+    <string name="backend_user_following_summary">user/following/summary/p/</string>
+    <string name="backend_user_following_people">user/following/people/</string>
+    <string name="backend_user_followed_people">user/followed/people/</string>
+    <string name="backend_comment_delete">comment/{0}/delete/</string>
+    <string name="backend_deal_report">group/report/deal/{0}/</string>
+    <string name="backend_version_check">version/check/</string>
+    <string name="backend_user_public_summary_rect">user/{0}/summary/public/rect/</string>
+    <string name="backend_user_public_summary">user/{0}/summary/public/p/</string>
+    <string name="backend_group_hot_article">group/{0}/hot/</string>
+    <string name="backend_group_fresh_article">group/{0}/fresh/</string>
+
+    <string name="backend_article_set_top">article/{0}/top/</string>
+    <string name="backend_group_top_articles">group/{0}/top/</string>
+    <string name="backend_top_articles">app/top/</string>
+    <string name="backend_group_rank">app/group/rank/</string>
+    <string name="backend_search_article">app/search/article/p/</string>
+    <string name="backend_search_group">app/search/group/p/</string>
+    <string name="backend_invite_email">invite/submit/email/</string>
+    <string name="backend_short_user">short/user/</string>
+    <string name="backend_short_group">short/group/</string>
+
+    <string name="backend_agreement">agreement/</string>
+
+</resources>

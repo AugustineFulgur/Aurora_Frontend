@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="file_setting_preference">settings.xml</string><!--配置文件的名字-->
+    <string name="file_star_group">star_group.xml</string> <!--收藏分组的文件-->
+</resources>

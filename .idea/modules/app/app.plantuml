@@ -1,0 +1,1421 @@
+@startuml
+
+title __AURORA.APP's Class Diagram__\n
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      class indi.augusttheodor.aurora.AuroraApplication {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      class indi.augusttheodor.aurora.BuildConfig {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AboutActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminApplyActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminBlockMemberActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminGroupActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminJoinTypeActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminLogActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminMemberActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminReportByHotActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminReportByTimeActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.AdminSearchMemberActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.ArticleActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.ChatMessageActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.CreateArticleActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.CreateSummaryActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.CreateTransmitActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.CreateTrendActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.GroupActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.GroupListActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.ImageActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.LoginActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.MainActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.NavigatorActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.NoticeActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.PeopleListActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.RegisterActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.ReportDialogActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.SearchActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.SettingActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.SummaryDetailActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.SummaryDialogActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.TransmitActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.TrendActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.UserCreateSummaryActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.UserDetailActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.UserFollowingSummaryActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.UserGroupActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace activity {
+        class indi.augusttheodor.aurora.activity.UserHistoryArticleActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.AdminApplyAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.AdminLogAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.AdminReportArticleAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.AdminReportLogAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.CommentAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.GroupArticleAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.GroupListAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.GroupRectAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.MemberAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.NoticeLogAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.NoticeMessageAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.NoticeMessageOutSuitAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.NoticeReplyAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.ReportReasonAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.StreamOutSuitAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.SummaryAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.SummaryArticleAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.TopArticleAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.TransmitAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.AdminApplyViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.AdminLogViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.AdminReportArticleViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.AdminReportLogViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.ArticleDetailObject {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.CommentMetaViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.GroupArticleViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.GroupListViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.GroupMetaObject {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.GroupRectViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.MemberViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.NoticeLogViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.NoticeMessageOutSuitViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.NoticeMessageViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.NoticeReplyViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.ReportReasonViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.StreamMetaViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.SummaryArticleViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.SummaryRectViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.TopArticleViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.TransmitMetaViewHolder {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.UserMetaObject {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace db {
+        class indi.augusttheodor.aurora.db.DbChatHeader {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace db {
+        class indi.augusttheodor.aurora.db.DbChatMessage {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.ArticleShowCommentFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.ArticleShowTransmitFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.GroupArticleFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.NoticeLogFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.NoticeMessageOutSuitFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.NoticeReplyFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.RandomStreamFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.SearchArticleFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.SearchGroupFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.SquareFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.SquareStreamFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.SubscribeGroupFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.SubscribeStreamFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace fragment {
+        class indi.augusttheodor.aurora.fragment.UserMetaFragment {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace inter {
+        class indi.augusttheodor.aurora.inter.AdapterItems {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace inter {
+        abstract class indi.augusttheodor.aurora.inter.AuroraImageClickableSpan {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace inter {
+        interface indi.augusttheodor.aurora.inter.HttpInterface {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace inter {
+        abstract class indi.augusttheodor.aurora.inter.OriginalArticleActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace inter {
+        interface indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace inter {
+        interface indi.augusttheodor.aurora.inter.SearchInter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace inter {
+        abstract class indi.augusttheodor.aurora.inter.ViewPager2Gesture {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace inter {
+        abstract class indi.augusttheodor.aurora.inter.ViewPager2LayoutAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.AuroraImageLoader {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.AuroraTextClickableSpan {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.ContentImageListener {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.HeartBeat {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.ImageClickableMovementMethod {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.ListenerAssemble {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.OkHttpPackage {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.RecyclerViewAdapter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.SSLVerify {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.SettingObject {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.TrustCA {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ndi.augusttheodor.aurora {
+      namespace tools {
+        class indi.augusttheodor.aurora.tools.WaterMarkUtils {
+        }
+      }
+    }
+  }
+  
+
+  indi.augusttheodor.aurora.AuroraApplication .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.AuroraApplication -up-|> com.orm.SugarApp
+  indi.augusttheodor.aurora.activity.AboutActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.AdminApplyActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.AdminApplyActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.AdminApplyActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.AdminApplyActivity o-- indi.augusttheodor.aurora.adapter.AdminApplyAdapter : adapter
+  indi.augusttheodor.aurora.activity.AdminBlockMemberActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.AdminBlockMemberActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.AdminBlockMemberActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.AdminBlockMemberActivity o-- indi.augusttheodor.aurora.adapter.MemberAdapter : adapter
+  indi.augusttheodor.aurora.activity.AdminGroupActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.AdminGroupActivity .up.|> com.jaredrummler.android.colorpicker.ColorPickerDialogListener
+  indi.augusttheodor.aurora.activity.AdminGroupActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.AdminGroupActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.AdminJoinTypeActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.AdminJoinTypeActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.AdminJoinTypeActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.AdminLogActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.AdminLogActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.AdminLogActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.AdminLogActivity o-- indi.augusttheodor.aurora.adapter.AdminLogAdapter : adapter
+  indi.augusttheodor.aurora.activity.AdminMemberActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.AdminMemberActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.AdminMemberActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.AdminMemberActivity o-- indi.augusttheodor.aurora.adapter.MemberAdapter : adapter
+  indi.augusttheodor.aurora.activity.AdminReportByHotActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.AdminReportByHotActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.AdminReportByHotActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.AdminReportByHotActivity o-- indi.augusttheodor.aurora.adapter.AdminReportArticleAdapter : adapter
+  indi.augusttheodor.aurora.activity.AdminReportByTimeActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.AdminReportByTimeActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.AdminReportByTimeActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.AdminReportByTimeActivity o-- indi.augusttheodor.aurora.adapter.AdminReportLogAdapter : adapter
+  indi.augusttheodor.aurora.activity.AdminSearchMemberActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.AdminSearchMemberActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.AdminSearchMemberActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.AdminSearchMemberActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.AdminSearchMemberActivity o-- indi.augusttheodor.aurora.adapter.MemberAdapter : adapter
+  indi.augusttheodor.aurora.activity.ArticleActivity -up-|> indi.augusttheodor.aurora.inter.OriginalArticleActivity
+  indi.augusttheodor.aurora.activity.ArticleActivity o-- indi.augusttheodor.aurora.data.ArticleDetailObject : article
+  indi.augusttheodor.aurora.activity.ChatMessageActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.ChatMessageActivity .up.|> androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener
+  indi.augusttheodor.aurora.activity.ChatMessageActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.ChatMessageActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.ChatMessageActivity o-- indi.augusttheodor.aurora.adapter.NoticeMessageAdapter : adapter
+  indi.augusttheodor.aurora.activity.ChatMessageActivity o-- indi.augusttheodor.aurora.db.DbChatHeader : header
+  indi.augusttheodor.aurora.activity.CreateArticleActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.CreateArticleActivity .up.|> android.view.View.OnFocusChangeListener
+  indi.augusttheodor.aurora.activity.CreateArticleActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.CreateArticleActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.CreateSummaryActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.CreateSummaryActivity .up.|> android.view.View.OnFocusChangeListener
+  indi.augusttheodor.aurora.activity.CreateSummaryActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.CreateSummaryActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.CreateTransmitActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.CreateTransmitActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.CreateTransmitActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.CreateTrendActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.CreateTrendActivity .up.|> android.view.View.OnFocusChangeListener
+  indi.augusttheodor.aurora.activity.CreateTrendActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.CreateTrendActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.GroupActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.GroupActivity .up.|> android.widget.PopupMenu.OnMenuItemClickListener
+  indi.augusttheodor.aurora.activity.GroupActivity .up.|> android.widget.RadioGroup.OnCheckedChangeListener
+  indi.augusttheodor.aurora.activity.GroupActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.GroupActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.GroupActivity o-- indi.augusttheodor.aurora.data.GroupMetaObject : group_meta
+  indi.augusttheodor.aurora.activity.GroupListActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.ImageActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.LoginActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.LoginActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.LoginActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.MainActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.MainActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.NavigatorActivity .up.|> android.widget.RadioGroup.OnCheckedChangeListener
+  indi.augusttheodor.aurora.activity.NavigatorActivity -up-|> indi.augusttheodor.aurora.inter.ViewPager2Gesture
+  indi.augusttheodor.aurora.activity.NoticeActivity .up.|> me.shihao.library.XRadioGroup.OnCheckedChangeListener
+  indi.augusttheodor.aurora.activity.NoticeActivity -up-|> indi.augusttheodor.aurora.inter.ViewPager2Gesture
+  indi.augusttheodor.aurora.activity.PeopleListActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.PeopleListActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.PeopleListActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.PeopleListActivity o-- indi.augusttheodor.aurora.adapter.MemberAdapter : adapter
+  indi.augusttheodor.aurora.activity.RegisterActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.RegisterActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.RegisterActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.ReportDialogActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.ReportDialogActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.ReportDialogActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.ReportDialogActivity o-- indi.augusttheodor.aurora.adapter.ReportReasonAdapter : adapter
+  indi.augusttheodor.aurora.activity.SearchActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.SearchActivity .up.|> android.widget.RadioGroup.OnCheckedChangeListener
+  indi.augusttheodor.aurora.activity.SearchActivity -up-|> indi.augusttheodor.aurora.inter.ViewPager2Gesture
+  indi.augusttheodor.aurora.activity.SearchActivity o-- indi.augusttheodor.aurora.activity.SearchActivity.SearchLayoutAdapter : layout
+  indi.augusttheodor.aurora.activity.SettingActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.SettingActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.SummaryDetailActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.SummaryDetailActivity .up.|> android.widget.PopupMenu.OnMenuItemClickListener
+  indi.augusttheodor.aurora.activity.SummaryDetailActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.SummaryDetailActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.SummaryDetailActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.SummaryDetailActivity o-- indi.augusttheodor.aurora.adapter.SummaryArticleAdapter : adapter
+  indi.augusttheodor.aurora.activity.SummaryDialogActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.SummaryDialogActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.SummaryDialogActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.SummaryDialogActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.SummaryDialogActivity o-- indi.augusttheodor.aurora.adapter.SummaryAdapter : adapter
+  indi.augusttheodor.aurora.activity.TransmitActivity -up-|> indi.augusttheodor.aurora.inter.OriginalArticleActivity
+  indi.augusttheodor.aurora.activity.TransmitActivity o-- indi.augusttheodor.aurora.data.ArticleDetailObject : article
+  indi.augusttheodor.aurora.activity.TransmitActivity o-- indi.augusttheodor.aurora.data.GroupArticleViewHolder.GroupArticleObject : origin
+  indi.augusttheodor.aurora.activity.TrendActivity -up-|> indi.augusttheodor.aurora.inter.OriginalArticleActivity
+  indi.augusttheodor.aurora.activity.TrendActivity o-- indi.augusttheodor.aurora.data.ArticleDetailObject : article
+  indi.augusttheodor.aurora.activity.UserCreateSummaryActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.UserCreateSummaryActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.UserCreateSummaryActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.UserCreateSummaryActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.UserCreateSummaryActivity o-- indi.augusttheodor.aurora.adapter.SummaryAdapter : adapter
+  indi.augusttheodor.aurora.activity.UserDetailActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.activity.UserDetailActivity .up.|> android.widget.PopupMenu.OnMenuItemClickListener
+  indi.augusttheodor.aurora.activity.UserDetailActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.UserDetailActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.UserDetailActivity o-- indi.augusttheodor.aurora.adapter.StreamOutSuitAdapter : detail_adapter
+  indi.augusttheodor.aurora.activity.UserFollowingSummaryActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.UserFollowingSummaryActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.UserFollowingSummaryActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.UserFollowingSummaryActivity o-- indi.augusttheodor.aurora.adapter.SummaryAdapter : adapter
+  indi.augusttheodor.aurora.activity.UserGroupActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.UserGroupActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.UserGroupActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.UserGroupActivity o-- indi.augusttheodor.aurora.adapter.GroupListAdapter : adapter
+  indi.augusttheodor.aurora.activity.UserHistoryArticleActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.activity.UserHistoryArticleActivity .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.activity.UserHistoryArticleActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.activity.UserHistoryArticleActivity o-- indi.augusttheodor.aurora.adapter.StreamOutSuitAdapter : adapter
+  indi.augusttheodor.aurora.adapter.AdminApplyAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.AdminLogAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.AdminReportArticleAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.AdminReportLogAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.CommentAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.GroupArticleAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.GroupListAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.GroupRectAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.MemberAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.NoticeLogAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.NoticeMessageAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.NoticeMessageAdapter o-- indi.augusttheodor.aurora.db.DbChatHeader : header
+  indi.augusttheodor.aurora.adapter.NoticeMessageOutSuitAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.NoticeReplyAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.ReportReasonAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.StreamOutSuitAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.SummaryAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.SummaryArticleAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.TopArticleAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.adapter.TransmitAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.data.AdminApplyViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.AdminLogViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.AdminReportArticleViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.AdminReportLogViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.CommentMetaViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.GroupArticleViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.GroupListViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.GroupRectViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.MemberViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.NoticeLogViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.NoticeMessageOutSuitViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.NoticeMessageViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.NoticeReplyViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.ReportReasonViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.StreamMetaViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.SummaryArticleViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.SummaryRectViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.TopArticleViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.data.TransmitMetaViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  indi.augusttheodor.aurora.db.DbChatHeader -up-|> com.orm.SugarRecord
+  indi.augusttheodor.aurora.db.DbChatMessage -up-|> com.orm.SugarRecord
+  indi.augusttheodor.aurora.fragment.ArticleShowCommentFragment .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.fragment.ArticleShowCommentFragment .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.fragment.ArticleShowCommentFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.ArticleShowCommentFragment o-- indi.augusttheodor.aurora.adapter.CommentAdapter : adapter
+  indi.augusttheodor.aurora.fragment.ArticleShowTransmitFragment .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.fragment.ArticleShowTransmitFragment .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.fragment.ArticleShowTransmitFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.ArticleShowTransmitFragment o-- indi.augusttheodor.aurora.adapter.TransmitAdapter : adapter
+  indi.augusttheodor.aurora.fragment.GroupArticleFragment .up.|> androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener
+  indi.augusttheodor.aurora.fragment.GroupArticleFragment .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.fragment.GroupArticleFragment .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.fragment.GroupArticleFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.GroupArticleFragment o-- indi.augusttheodor.aurora.adapter.GroupArticleAdapter : adapter
+  indi.augusttheodor.aurora.fragment.NoticeLogFragment .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.fragment.NoticeLogFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.NoticeLogFragment o-- indi.augusttheodor.aurora.adapter.NoticeLogAdapter : adapter
+  indi.augusttheodor.aurora.fragment.NoticeMessageOutSuitFragment .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.fragment.NoticeMessageOutSuitFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.NoticeMessageOutSuitFragment o-- indi.augusttheodor.aurora.adapter.NoticeMessageOutSuitAdapter : adapter
+  indi.augusttheodor.aurora.fragment.NoticeReplyFragment .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.fragment.NoticeReplyFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.NoticeReplyFragment o-- indi.augusttheodor.aurora.adapter.NoticeReplyAdapter : adapter
+  indi.augusttheodor.aurora.fragment.RandomStreamFragment .up.|> androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener
+  indi.augusttheodor.aurora.fragment.RandomStreamFragment .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.fragment.RandomStreamFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.RandomStreamFragment o-- indi.augusttheodor.aurora.adapter.StreamOutSuitAdapter : adapter
+  indi.augusttheodor.aurora.fragment.SearchArticleFragment .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.fragment.SearchArticleFragment .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.fragment.SearchArticleFragment .up.|> indi.augusttheodor.aurora.inter.SearchInter
+  indi.augusttheodor.aurora.fragment.SearchArticleFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.SearchArticleFragment o-- indi.augusttheodor.aurora.adapter.StreamOutSuitAdapter : adapter
+  indi.augusttheodor.aurora.fragment.SearchGroupFragment .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.fragment.SearchGroupFragment .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.fragment.SearchGroupFragment .up.|> indi.augusttheodor.aurora.inter.SearchInter
+  indi.augusttheodor.aurora.fragment.SearchGroupFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.SearchGroupFragment o-- indi.augusttheodor.aurora.adapter.GroupListAdapter : adapter
+  indi.augusttheodor.aurora.fragment.SquareFragment .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.fragment.SquareFragment .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.fragment.SquareFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.SquareFragment o-- indi.augusttheodor.aurora.adapter.GroupListAdapter : group_adapter
+  indi.augusttheodor.aurora.fragment.SquareFragment o-- indi.augusttheodor.aurora.adapter.TopArticleAdapter : top_adapter
+  indi.augusttheodor.aurora.fragment.SquareStreamFragment .up.|> android.widget.RadioGroup.OnCheckedChangeListener
+  indi.augusttheodor.aurora.fragment.SquareStreamFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.SquareStreamFragment o-- indi.augusttheodor.aurora.fragment.SquareStreamFragment.SquareStreamLayoutAdapter : layout_adapter
+  indi.augusttheodor.aurora.fragment.SubscribeGroupFragment .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.fragment.SubscribeGroupFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.SubscribeGroupFragment o-- indi.augusttheodor.aurora.adapter.GroupRectAdapter : prefer_adapter
+  indi.augusttheodor.aurora.fragment.SubscribeGroupFragment o-- indi.augusttheodor.aurora.adapter.GroupRectAdapter : subscribe_adapter
+  indi.augusttheodor.aurora.fragment.SubscribeStreamFragment .up.|> androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener
+  indi.augusttheodor.aurora.fragment.SubscribeStreamFragment .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.fragment.SubscribeStreamFragment .up.|> indi.augusttheodor.aurora.inter.RecyclerViewListenerInterface
+  indi.augusttheodor.aurora.fragment.SubscribeStreamFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.fragment.SubscribeStreamFragment o-- indi.augusttheodor.aurora.adapter.StreamOutSuitAdapter : adapter
+  indi.augusttheodor.aurora.fragment.UserMetaFragment .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.fragment.UserMetaFragment .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.fragment.UserMetaFragment -up-|> androidx.fragment.app.Fragment
+  indi.augusttheodor.aurora.inter.AuroraImageClickableSpan -up-|> android.text.style.ImageSpan
+  indi.augusttheodor.aurora.inter.OriginalArticleActivity .up.|> android.view.View.OnClickListener
+  indi.augusttheodor.aurora.inter.OriginalArticleActivity .up.|> android.view.View.OnFocusChangeListener
+  indi.augusttheodor.aurora.inter.OriginalArticleActivity .up.|> android.view.View.OnLongClickListener
+  indi.augusttheodor.aurora.inter.OriginalArticleActivity .up.|> android.widget.PopupMenu.OnMenuItemClickListener
+  indi.augusttheodor.aurora.inter.OriginalArticleActivity .up.|> android.widget.RadioGroup.OnCheckedChangeListener
+  indi.augusttheodor.aurora.inter.OriginalArticleActivity .up.|> indi.augusttheodor.aurora.inter.HttpInterface
+  indi.augusttheodor.aurora.inter.OriginalArticleActivity -up-|> indi.augusttheodor.aurora.inter.ViewPager2Gesture
+  indi.augusttheodor.aurora.inter.OriginalArticleActivity o-- indi.augusttheodor.aurora.data.ArticleDetailObject : article
+  indi.augusttheodor.aurora.inter.OriginalArticleActivity o-- indi.augusttheodor.aurora.fragment.ArticleShowCommentFragment : comment_fragment
+  indi.augusttheodor.aurora.inter.ViewPager2Gesture .up.|> android.view.GestureDetector.OnGestureListener
+  indi.augusttheodor.aurora.inter.ViewPager2Gesture -up-|> androidx.appcompat.app.AppCompatActivity
+  indi.augusttheodor.aurora.inter.ViewPager2LayoutAdapter -up-|> androidx.viewpager2.adapter.FragmentStateAdapter
+  indi.augusttheodor.aurora.tools.AuroraImageLoader .up.|> com.lzy.imagepicker.loader.ImageLoader
+  indi.augusttheodor.aurora.tools.AuroraTextClickableSpan -up-|> android.text.style.ClickableSpan
+  indi.augusttheodor.aurora.tools.ContentImageListener .up.|> android.text.TextWatcher
+  indi.augusttheodor.aurora.tools.HeartBeat -up-|> okhttp3.WebSocketListener
+  indi.augusttheodor.aurora.tools.ImageClickableMovementMethod -up-|> android.text.method.LinkMovementMethod
+  indi.augusttheodor.aurora.tools.RecyclerViewAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  indi.augusttheodor.aurora.tools.TrustCA .up.|> javax.net.ssl.HostnameVerifier
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

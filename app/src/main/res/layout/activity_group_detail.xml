@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/background"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:id="@+id/top_background"
+        style="@style/aurora_daynight_theme"
+        android:elevation="6dip"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/notice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dip"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:drawableRight="@drawable/notice" />
+
+            <Button
+                android:id="@+id/new_notice"
+                android:layout_alignRight="@+id/notice"
+                android:layout_alignBottom="@+id/notice"
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/round_notice_bubble"
+                android:text="99+"
+                android:textSize="10sp"
+                android:visibility="invisible"
+                android:textColor="@color/font"
+                android:layout_width="20dip"
+                android:layout_height="20dip"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_scrollFlags="scroll"
+        android:padding="20dip"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/group_pic"
+                android:layout_width="100dip"
+                android:layout_height="100dip" />
+
+            <LinearLayout
+                android:layout_marginLeft="110dip"
+                android:layout_alignBottom="@id/group_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/group_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/font"
+                    android:text="小黄鸭组"/>
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dip"/>
+
+                <TextView
+                    android:id="@+id/group_member"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/font"
+                    android:textSize="@dimen/normal_font"
+                    android:text="1000000只小黄鸭"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/group_introduction"
+            android:background="@color/aurora_trans_grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:textSize="13sp"
+            android:textColor="@color/font"
+            android:text="小黄鸭组的简介"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:paddingLeft="20dip"
+        android:text="@string/group_admins"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        style="@style/aurora_daynight_theme"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:textSize="@dimen/normal_font"
+            android:gravity="bottom"
+            android:paddingLeft="10dip"
+            android:text="@string/master"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:orientation="horizontal"
+            style="@style/aurora_daynight_theme">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/master_nick"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="20dip"
+                android:src="@mipmap/history"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:riv_oval="true" />
+
+            <TextView
+                style="@style/aurora_daynight_theme"
+                android:id="@+id/master_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                app:layout_constraintLeft_toRightOf="@+id/master_nick"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="小黄鸭"/>
+
+            <View
+                android:id="@+id/master_link"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@color/aurora_grey"/> <!--存在这，我真是个天才^ ^-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:textSize="@dimen/normal_font"
+            android:gravity="bottom"
+            android:paddingLeft="10dip"
+            android:text="@string/admin"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:state_checked="true">
+        <shape
+            android:shape="rectangle">
+
+            <size android:width="30dip"
+                android:height="10dip"/><!--大小-->
+
+            <solid android:color="@color/aurora_theme"/><!--填充-->
+
+        </shape>
+    </item>
+
+    <item>
+        <shape
+            android:shape="rectangle">
+
+            <size android:width="30dip"
+                android:height="10dip"/><!--大小-->
+
+            <solid android:color="@color/aurora_label"/><!--填充-->
+
+            <stroke
+                android:width="2dip"
+                android:color="@color/aurora_theme"/>
+
+        </shape>
+    </item>
+
+</selector>

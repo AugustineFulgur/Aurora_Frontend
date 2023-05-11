@@ -1,0 +1,220 @@
+@startuml
+
+title __ADAPTER's Class Diagram__\n
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.AdminApplyAdapter {
+            + context : Context
+            + group_id : String
+            + item : AdapterItems<AdminApplyObject>
+            + AdminApplyAdapter()
+            + getItemCount()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+            - callDealRequest()
+        }
+      }
+    }
+  
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.AdminLogAdapter {
+            + context : Context
+            + item : AdapterItems<AdminLogObject>
+            + AdminLogAdapter()
+            + getItemCount()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+  
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.AdminReportArticleAdapter {
+            + activity : Activity
+            + item : AdapterItems<AdminReportArticleObject>
+            + AdminReportArticleAdapter()
+            + getItemCount()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+  
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.AdminReportLogAdapter {
+            + activity : Activity
+            + item : AdapterItems<AdminReportLogObject>
+            + AdminReportLogAdapter()
+            + getItemCount()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+  
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.CommentAdapter {
+            {static} + comment_id : String
+            {static} + comment_inside : TextView
+            {static} + comment_outside : TextView
+            + fragment : Fragment
+            + is_article : boolean
+            + item : AdapterItems<CommentMetaObject>
+            + CommentAdapter()
+            + getItemCount()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+  
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.GroupArticleAdapter {
+            + context : Context
+            + item : AdapterItems<GroupArticleObject>
+            + GroupArticleAdapter()
+            + getItemCount()
+            + getItemViewType()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+
+  
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.NoticeLogAdapter {
+            + context : Context
+            + item : AdapterItems<NoticeLogObject>
+            + NoticeLogAdapter()
+            + getItemCount()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+  
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.NoticeMessageAdapter {
+            + activity : Activity
+            + item : AdapterItems<DbChatMessage>
+            {static} - MESSAGE_LEFT : int
+            {static} - MESSAGE_RIGHT : int
+            + NoticeMessageAdapter()
+            + getItemCount()
+            + getItemViewType()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+  
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.NoticeMessageOutSuitAdapter {
+            + fragment : Fragment
+            + item : AdapterItems<DbChatHeader>
+            + NoticeMessageOutSuitAdapter()
+            + getItemCount()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+  
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.NoticeReplyAdapter {
+            + fragment : Fragment
+            + item : AdapterItems<NoticeReplyObject>
+            + NoticeReplyAdapter()
+            + getItemCount()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+  
+
+
+  
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.StreamOutSuitAdapter {
+            + activity : Activity
+            + item : AdapterItems<StreamMetaObject>
+            {static} + map : Map<String, Integer>
+            + StreamOutSuitAdapter()
+            + getItemCount()
+            + getItemViewType()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+  
+
+ 
+    namespace indi.augusttheodor.aurora {
+      namespace adapter {
+        class indi.augusttheodor.aurora.adapter.SummaryAdapter {
+            {static} + LARGE : int
+            {static} + SMALL : int
+            + activity : Activity
+            + item : AdapterItems<SummaryObject>
+            + listener : OnClickListener
+            + type : int
+            + SummaryAdapter()
+            + getItemCount()
+            + onBindViewHolder()
+            + onCreateViewHolder()
+        }
+      }
+    }
+  
+
+ 
+
+
+ 
+
+  
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

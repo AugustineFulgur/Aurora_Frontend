@@ -1,0 +1,284 @@
+@startuml
+
+title __OBJECT's Class Diagram__\n
+skinparam dpi 4000
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.TransmitMetaViewHolder.TransmitMetaObject {
+            + author : String
+            + author_name : String
+            + author_nick : String
+            + content : String
+            + id : String
+            + time : String
+        }
+      }
+    }
+
+
+
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.UserMetaObject {
+            + is_blocking : boolean
+            + is_following : boolean
+            + user_article : String
+            + user_bimg : String
+            + user_followed : String
+            + user_following : String
+            + user_group : String
+            + user_himg : String
+            + user_name : String
+            + user_signature : String
+        }
+      }
+    }
+
+
+    namespace indi.augusttheodor.aurora {
+          namespace data {
+            class indi.augusttheodor.aurora.data.TopArticleViewHolder.TopArticleObject {
+                + id : String
+                + title : String
+            }
+          }
+        }
+        namespace indi.augusttheodor.aurora {
+               namespace data {
+                 class indi.augusttheodor.aurora.data.SummaryRectViewHolder.SummaryObject {
+                     + summary_desc : String
+                     + summary_link : String
+                     + summary_name : String
+                     + summary_pic : String
+                 }
+               }
+             }
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.SummaryRectViewHolder.SummaryMetaObject {
+            + create_time : String
+            + is_author : boolean
+            + is_following : boolean
+            + summary_desc : String
+            + summary_dict : String
+            + summary_follow : String
+            + summary_link : String
+            + summary_name : String
+            + summary_pic : String
+        }
+      }
+    }
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.SummaryArticleViewHolder.SummaryArticleObject {
+            + article_id : String
+            + article_title : String
+            + author_id : String
+            + author_name : String
+            + author_nick : String
+            + desc : String
+            + time : String
+        }
+      }
+    }
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.StreamMetaViewHolder.StreamMetaObject {
+            + content : String
+            + nick : String
+            + nick_img : String
+            + origin : String
+            + origin_author_id : String
+            + origin_author_name : String
+            + origin_author_nick : String
+            + origin_title : String
+            + s_id : String
+            + title : String
+            + group_name : String
+        }
+      }
+    }
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.ReportReasonViewHolder.ReportReasonObject {
+            + id : Integer
+            + reason : String
+        }
+      }
+    }
+
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.NoticeReplyViewHolder.NoticeReplyObject {
+            + author : String
+            + author_name : String
+            + content : String
+            + reply_content : String
+            + reply_title : String
+            + time : String
+            + trend : String
+            + trend_type : String
+        }
+      }
+    }
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.NoticeLogViewHolder.NoticeLogObject {
+            + content : String
+            + time : String
+            + type : String
+            + type_id : String
+        }
+      }
+    }
+
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.MemberViewHolder.MemberObject {
+            + member_id : String
+            + member_name : String
+            + member_nick : String
+        }
+      }
+    }
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.GroupRectViewHolder.GroupRectObject {
+            + group_id : String
+            + group_name : String
+            + group_pic : String
+        }
+      }
+    }
+
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.GroupListViewHolder.GroupListObject {
+            + group_desc : String
+            + group_id : String
+            + group_name : String
+            + group_number : String
+            + group_pic : String
+        }
+      }
+    }
+
+
+
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.GroupMetaObject {
+            + group_color : String
+            + group_introduction : String
+            + group_join_type : String
+            + group_member : String
+            + group_member_name : String
+            + group_name : String
+            + group_pic : String
+            + is_admin : boolean
+            + is_follow : boolean
+        }
+      }
+    }
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.GroupArticleViewHolder.GroupArticleObject {
+            + article_amount : String
+            + article_id : String
+            + article_time : String
+            + article_title : String
+            + author_id : String
+            + author_name : String
+            + author_nick : String
+        }
+      }
+    }
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.CommentMetaViewHolder.CommentMetaObject {
+            + author : String
+            + author_name : String
+            + author_nick : String
+            + content : String
+            + id : String
+            + is_prefer : boolean
+            + like : String
+            + reply_comment_author_name : String
+            + reply_comment_content : String
+            + time : String
+        }
+      }
+    }
+
+
+
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.AdminReportLogViewHolder.AdminReportLogObject {
+            + content_id : String
+            + report_content : String
+            + report_reason : String
+            + report_time : String
+            + type : String
+        }
+      }
+    }
+
+
+
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.ArticleDetailObject {
+            + a_comment : String
+            + a_prefer : String
+            + a_star : String
+            + a_transmit : String
+            + a_up : String
+            + author : String
+            + author_name : String
+            + author_nick : String
+            + content : String
+            + image : String
+            + is_admin : boolean
+            + is_author : boolean
+            + is_prefer : boolean
+            + safe_type : String
+            + time : String
+            + title : String
+            + group : String
+            + group_name : String
+            + group_nick : String
+        }
+      }
+    }
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.AdminReportArticleViewHolder.AdminReportArticleObject {
+            + article_id : String
+            + report_content : String
+            + report_time : String
+        }
+      }
+    }
+    namespace indi.augusttheodor.aurora {
+          namespace data {
+            class indi.augusttheodor.aurora.data.AdminLogViewHolder.AdminLogObject {
+                + admin : String
+                + content : String
+                + operation : String
+                + time : String
+            }
+          }
+        }
+namespace indi.augusttheodor.aurora {
+      namespace data {
+        class indi.augusttheodor.aurora.data.AdminApplyViewHolder.AdminApplyObject {
+            + content : String
+            + id : String
+            + user_name : String
+            + user_nick : String
+        }
+      }
+    }
+
+@enduml

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/aurora_daynight_theme">
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/cancel"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/set_transmit"
+                android:layout_width="100dip"
+                android:layout_height="40dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/round_shape_theme"
+                android:text="@string/transmit"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <EditText
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/transmit_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginTop="60dip"
+        android:padding="20dip"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@null"
+        android:textSize="17sp"
+        android:textColor="@color/aurora_font"
+        android:textColorHint="@color/aurora_font"
+        android:hint="@string/content_transmit_hint" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

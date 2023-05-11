@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/report"
+        android:orderInCategory="101"
+        android:title="@string/report"/>
+
+    <item
+        android:id="@+id/follow"
+        android:title="@string/user_follow_f"/>
+
+    <item
+        android:id="@+id/change_name"
+        android:orderInCategory="102"
+        android:title="@string/change_summary_name"/>
+
+    <item
+        android:id="@+id/change_desc"
+        android:orderInCategory="103"
+        android:title="@string/change_summary_desc"/>
+
+    <item
+        android:id="@+id/change_pic"
+        android:orderInCategory="104"
+        android:title="@string/change_summary_pic"/>
+
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="105"
+        android:title="@string/delete"/>
+
+</menu>

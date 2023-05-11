@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/up"
+        android:orderInCategory="101"
+        android:title="@string/up"/>
+
+    <item
+        android:id="@+id/report"
+        android:orderInCategory="102"
+        android:title="@string/report"/>
+
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="103"
+        android:title="@string/delete"/>
+
+    <item
+        android:id="@+id/top"
+        android:orderInCategory="104"
+        android:title="@string/top"/>
+
+    <item
+        android:id="@+id/share_inside"
+        android:orderInCategory="105"
+        android:title="@string/share_inside"/>
+
+    <item
+        android:id="@+id/share_outside"
+        android:orderInCategory="106"
+        android:title="@string/share_outside"/>
+
+</menu>

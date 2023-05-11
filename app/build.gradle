@@ -1,0 +1,77 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 31
+
+    packagingOptions {
+
+        exclude'META-INF/DEPENDENCIES'
+
+    }
+
+    defaultConfig {
+        applicationId "indi.augusttheodor.aurora"
+        minSdk 28
+        targetSdk 31
+        versionCode 1
+        versionName "0.4.3"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true //开了混淆
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            //开启代码混淆
+            minifyEnabled false
+            shrinkResources false// 移除无用的resource文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding false
+    }
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.zaaach/tabradiobutton
+    implementation 'io.github.meetsl:SCardView:1.0' //阴影卡片
+    implementation 'com.lijiankun24:shadowlayout:1.0.0' //阴影库
+    implementation 'com.makeramen:roundedimageview:2.2.1' //圆形组件
+    implementation 'androidx.appcompat:appcompat:1.3.0' //主题切换
+    implementation 'com.google.code.gson:gson:2.8.6' //JSON解析
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3' //okhttp3
+    implementation 'com.squareup.okio:okio:3.0.0' //OKHTTP工具包
+    implementation 'androidx.recyclerview:recyclerview:1.2.1' //recyclerview
+    implementation 'com.github.nostra13:Android-Universal-Image-Loader:f6a9615' //image loader图片显示控件
+    implementation 'com.bm.photoview:library:1.4.1' //图片放缩显示
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    api 'com.cysion:ImagePicker:1.2.1.Q' //选择图片的插件
+    implementation 'top.zibin:Luban:1.1.8' //压缩插件
+    implementation 'com.bskim:maxheightscrollview:1.0.0' //最大高度的ScrollView
+    implementation 'com.github.satyan:sugar:1.5' //sugar orm
+    implementation 'com.jaredrummler:colorpicker:1.1.0' //颜色选择器
+    implementation 'com.github.fodroid:XRadioGroup:1.5' //任意嵌套的RadioButton
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+    implementation 'org.dom4j:dom4j:2.1.3'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.7.1'
+    testImplementation 'junit:junit:4.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}
